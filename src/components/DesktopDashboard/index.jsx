@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect, useState} from "react";
 import { Link } from "react-router-dom";
 import Searchbox from "../Searchbox";
 import Group2 from "../Group2";
@@ -11,6 +11,7 @@ import MarketingAd1 from "../MarketingAd1";
 import TabbedReports from "../TabbedReports";
 import Rightbar from "../Rightbar";
 import "./DesktopDashboard.css";
+import {getUser} from "../api/info"
 
 function DesktopDashboard(props) {
   const {
@@ -69,6 +70,15 @@ function DesktopDashboard(props) {
     tabbedReportsProps,
     rightbarProps,
   } = props;
+  const [dataUser, setdataUser]=useState(null);
+  useEffect(() => {
+    (async () => {
+      const response = await getUser("jd@nulifespan.com");
+      // console.log(response[0]);
+      setdataUser(response[0]);
+    })();
+  }, []);
+
 
   return (
     <div className="container-center-horizontal">
@@ -139,7 +149,7 @@ function DesktopDashboard(props) {
             <div className="over-container-1">
               <div className="overlap-group10-1">
                 <div className="dashboard-33 gotham-bold-eerie-black-34px">{dashboard}</div>
-                <div className="welcome-4 opensans-normal-quick-silver-18px">{welcome}</div>
+                <div className="welcome-4 opensans-normal-quick-silver-18px">{dataUser==null?"Error":(`Hello ${dataUser["firstName"]}, welcome back!`)}</div> 
               </div>
               <div className="overview-1">
                 <div className="flex-row-24">

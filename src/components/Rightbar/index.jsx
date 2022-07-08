@@ -2,6 +2,7 @@ import React,{useEffect, useState} from "react";
 import Date from "../Date";
 import DueDate from "../DueDate";
 import {getDate} from "../Date/fecha"
+import {getCustomer} from "../api/info"
 import "./Rightbar.css";
 
 function Rightbar(props) {
@@ -12,10 +13,35 @@ function Rightbar(props) {
   // nulifespan-bonuses/<company>/<nodeid>/</nodeid>
   // https://deploywk.herokuapp.com/nulifespan-customer-data/<company>/<email>/
 
+
+
   const [fecha,setfecha]=useState(null);
+  const [lastSix, setLastSix]=useState(null);
+  const [compras, setCompras]=useState(0);
   useEffect(() => {
-    setfecha(getDate());
+    (async () => {
+      const response = await getCustomer("jd@nulifespan.com");
+      // console.log(response.lasttransactions);
+      // setdataUser(response[0]);
+      setLastSix(response.lasttransactions);
+      setfecha(getDate());
+    })();
   }, []);
+
+  useEffect(() => {
+    console.log("Array de lastSix");
+    console.log(lastSix);
+    let value=0;
+    if(lastSix===null || lastSix===undefined){
+      value=0;
+    }else{
+      lastSix.forEach(element => {
+        value+=parseFloat(element.value);
+      });
+    }
+    console.log(value);
+    setCompras(value.toFixed(2));
+  }, [lastSix]);
 
   return (
     <div className="rightbar">
@@ -23,7 +49,7 @@ function Rightbar(props) {
         <div className="text-earning-this-month-2">
           <div className="your-earnings-this-month manrope-normal-quick-silver-18px">Your earnings this month</div>
           <div className="overlap-group-32">
-            <h1 className="price-1 manrope-bold-black-60px">$2.309.68</h1>
+            <h1 className="price-1 manrope-bold-black-60px">$ {compras}</h1>
             <p className="address manrope-normal-quick-silver-15px">{fecha}</p>
             {/* <p className="address manrope-normal-quick-silver-15px">05 Jun 2021 at 11:00 PM</p> */}
           </div>
