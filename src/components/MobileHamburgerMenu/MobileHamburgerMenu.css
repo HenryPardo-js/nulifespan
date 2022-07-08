@@ -1,0 +1,25 @@
+.mobile-hamburger-menu {
+  align-items: flex-start;
+  display: flex;
+  height: 812px;
+  padding: 63px 15px;
+  width: 414px;
+}
+
+.overlay .mobile-hamburger-menu {
+  background-color: #00000000;
+}
+
+.mobile {
+  display: flex;
+  height: 640px;
+  margin-left: 66px;
+  margin-top: 46px;
+  position: relative;
+  width: 318px;
+}
+
+#overlay-mobile-hamburger-menu {
+  background-color: transparent;
+}
+

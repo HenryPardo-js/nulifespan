@@ -1,0 +1,111 @@
+.tablet-menu {
+  align-items: flex-start;
+  background-color: var(--hint-of-red);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 1366px;
+  padding: 110.0px 27.0px;
+  width: 1024px;
+}
+
+.overlay .tablet-menu {
+  background-color: #00000000;
+}
+
+.overlap-group-74 {
+  height: 217px;
+  margin-left: 735px;
+  position: relative;
+  width: 235px;
+}
+
+.background-6 {
+  background-color: var(--white);
+  border-radius: 14px;
+  box-shadow: 0px 1px 56px #0000001f;
+  height: 203px;
+  left: 0;
+  position: absolute;
+  top: 14px;
+  transform: rotate(180deg);
+  width: 235px;
+}
+
+.background-7 {
+  height: 70px;
+  left: 32px;
+  object-fit: cover;
+  position: absolute;
+  top: 147px;
+  width: 203px;
+}
+
+.arrow-13 {
+  background-color: var(--white);
+  height: 23px;
+  left: 180px;
+  position: absolute;
+  top: 5px;
+  transform: rotate(225deg);
+  width: 23px;
+}
+
+.group-38 {
+  display: flex;
+  height: 51px;
+  left: 31px;
+  position: absolute;
+  top: 36px;
+  width: 180px;
+}
+
+.add-friend-2-1 {
+  height: 19px;
+  margin-left: 0;
+  margin-top: 3.4px;
+  object-fit: cover;
+  width: 20.01px;
+}
+
+.lorem-ipsum-1 {
+  cursor: pointer;
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-bottom: -2px;
+  margin-left: 18.0px;
+  margin-right: -2px;
+}
+
+.group-43 {
+  display: flex;
+  height: 51px;
+  left: 31px;
+  position: absolute;
+  top: 96px;
+  width: 180px;
+}
+
+.path-43-3 {
+  height: 25.41px;
+  margin-left: 0;
+  margin-top: 0;
+  object-fit: cover;
+  width: 23.05px;
+}
+
+.dolor-sit-amet-1 {
+  cursor: pointer;
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-bottom: -2px;
+  margin-left: 15.0px;
+  margin-right: -2px;
+}
+
+#overlay-tablet-menu {
+  background-color: var(--hint-of-red);
+}
+

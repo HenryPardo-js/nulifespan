@@ -1,0 +1,54 @@
+.tablet-my-connections {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 1366px;
+  overflow: hidden;
+  width: 1024px;
+}
+
+.overlap-group-77 {
+  height: 1576px;
+  margin-left: -87px;
+  margin-top: -101px;
+  position: relative;
+  width: 1111px;
+}
+
+.background-10 {
+  height: 1363px;
+  left: 87px;
+  object-fit: cover;
+  position: absolute;
+  top: 101px;
+  width: 1024px;
+}
+
+.nav-4 {
+  height: 120px;
+  left: 87px;
+  object-fit: cover;
+  position: absolute;
+  top: 101px;
+  width: 1024px;
+}
+
+.sidebar-3 {
+  height: 1576px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 330px;
+}
+
+.dashboard-12 {
+  height: 66px;
+  left: 237px;
+  letter-spacing: 0;
+  line-height: 38px;
+  position: absolute;
+  top: 260px;
+  width: 330px;
+}
+

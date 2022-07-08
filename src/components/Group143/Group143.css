@@ -1,0 +1,32 @@
+.group-14-4,
+.group-14-5 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  min-width: 68.71px;
+}
+
+.overlap-group-67,
+.overlap-group-68 {
+  align-items: flex-start;
+  background-image: url(../../static/img/bg-11@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 140px;
+  margin-top: -44.24px;
+  min-width: 189px;
+  padding: 43.4px 73.6px;
+}
+
+.shop-now-5,
+.shop-now-6 {
+  letter-spacing: 0;
+  line-height: 22px;
+  min-height: 13px;
+  min-width: 38px;
+  text-align: center;
+  white-space: nowrap;
+}
+

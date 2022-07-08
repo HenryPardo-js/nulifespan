@@ -1,0 +1,265 @@
+.desktop-my-team {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  width: 1920px;
+}
+
+.overlap-group4-6 {
+  background-color: var(--hint-of-red);
+  height: 1421px;
+  position: relative;
+  width: 1920px;
+}
+
+.overlap-group5-5 {
+  height: 1421px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.nav-9 {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  height: 120px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 1920px;
+  padding: 0 50px;
+  position: absolute;
+  top: 0;
+}
+
+.separator-4 {
+  background-color: var(--silver-sand);
+  border-radius: 8px;
+  height: 56px;
+  margin-left: 30px;
+  opacity: 0.5;
+  width: 1px;
+}
+
+.profile-12 {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  margin-bottom: 1.0px;
+  margin-left: 30px;
+  min-width: 223px;
+  position: relative;
+}
+
+.overlap-group2-13 {
+  align-items: flex-start;
+  background-color: var(--silver-sand);
+  border-radius: 14px;
+  display: flex;
+  height: 57px;
+  justify-content: flex-end;
+  min-width: 57px;
+  padding: 15px 17.0px;
+}
+
+.icon-user-6 {
+  height: 26px;
+  object-fit: cover;
+  width: 22px;
+}
+
+.sidebar-6 {
+  align-items: center;
+  background-color: var(--white);
+  box-shadow: 18px 4px 70px #00000005;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 1421px;
+  position: absolute;
+  top: 0;
+  width: 345px;
+}
+
+.menus-4 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 33px;
+  min-height: 242px;
+  position: relative;
+  width: 285px;
+}
+
+.x01-19 {
+  align-items: center;
+  background-color: var(--turmeric);
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  height: 50px;
+  min-width: 285px;
+  padding: 9px 22.3px;
+  position: relative;
+}
+
+.dashboard-17 {
+  align-self: flex-end;
+  height: 31px;
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 28px;
+  width: 98px;
+}
+
+.x02-8 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  height: 50px;
+  margin-top: 14px;
+  min-width: 285px;
+  padding: 9px 25.2px;
+}
+
+.proposal-5 {
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 24px;
+  width: 18px;
+}
+
+.projects-4 {
+  align-self: flex-end;
+  height: 29px;
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 31px;
+  width: 145px;
+}
+
+.x03-3 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  height: 50px;
+  margin-top: 14px;
+  min-width: 285px;
+  padding: 9px 23.3px;
+  position: relative;
+}
+
+.contacts-6 {
+  align-self: flex-end;
+  height: 29px;
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 26px;
+  width: 86px;
+}
+
+.overlap-group3-5 {
+  background-color: var(--turmeric-2);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px #0000000d;
+  height: 600px;
+  margin-top: 33px;
+  width: 285px;
+}
+
+.overlap-group1-39 {
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 224px;
+  margin-top: 25px;
+  position: relative;
+  width: 309px;
+}
+
+.your-image-here-4 {
+  height: 191px;
+  left: 106px;
+  object-fit: cover;
+  position: absolute;
+  top: 15px;
+  width: 191px;
+}
+
+.sleepangle-3 {
+  height: 200px;
+  left: 159px;
+  object-fit: cover;
+  position: absolute;
+  top: 11px;
+  width: 135px;
+}
+
+.group-35 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 40px;
+  justify-content: flex-end;
+  left: 41px;
+  min-width: 114px;
+  position: absolute;
+  top: 143px;
+}
+
+.overlap-group-83 {
+  align-items: flex-start;
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 160px;
+  justify-content: flex-end;
+  margin-top: -44.24px;
+  min-width: 234px;
+  padding: 39.7px 85.3px;
+}
+
+.shop-now-8 {
+  letter-spacing: 0;
+  line-height: 49px;
+  min-height: 20px;
+  min-width: 62px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.on-sale-4 {
+  left: 41px;
+  letter-spacing: 0;
+  line-height: 26px;
+  position: absolute;
+  top: 34px;
+  white-space: nowrap;
+}
+
+.ongoing-10 {
+  height: 46px;
+  left: 41px;
+  letter-spacing: 0;
+  line-height: 12px;
+  position: absolute;
+  top: 59px;
+  width: 114px;
+}
+
+.dashboard-18 {
+  height: 66px;
+  left: 395px;
+  letter-spacing: 0;
+  line-height: 38px;
+  position: absolute;
+  top: 148px;
+  width: 330px;
+}
+

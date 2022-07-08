@@ -1,0 +1,24 @@
+.x01,
+.x01-1,
+.x01-2 {
+  align-items: center;
+  background-color: var(--turmeric);
+  border-radius: 10px;
+  display: flex;
+  height: 50px;
+  min-width: 285px;
+  padding: 9px 22.3px;
+  position: relative;
+}
+
+.dashboard-1,
+.dashboard-2,
+.dashboard-3 {
+  align-self: flex-end;
+  height: 31px;
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 28px;
+  width: 98px;
+}
+

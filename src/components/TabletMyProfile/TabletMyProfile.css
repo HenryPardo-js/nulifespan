@@ -1,0 +1,324 @@
+.tablet-my-profile {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  width: 1024px;
+}
+
+.overlap-group3-10 {
+  background-color: var(--hint-of-red);
+  height: 1366px;
+  position: relative;
+  width: 1024px;
+}
+
+.overlap-group4-10 {
+  height: 1366px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1024px;
+}
+
+.nav-13 {
+  align-items: center;
+  background-color: var(--white);
+  cursor: pointer;
+  display: flex;
+  height: 120px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 1024px;
+  padding: 0 47px;
+  position: absolute;
+  top: 0;
+}
+
+.separator-7 {
+  background-color: var(--black-haze);
+  border-radius: 8px;
+  height: 56px;
+  margin-left: 24px;
+  width: 1px;
+}
+
+.profile-16 {
+  align-items: center;
+  display: flex;
+  margin-bottom: 1.0px;
+  margin-left: 24px;
+  min-width: 88px;
+}
+
+.overlap-group1-49 {
+  align-items: flex-start;
+  background-color: var(--silver-sand);
+  border-radius: 14px;
+  display: flex;
+  height: 57px;
+  justify-content: flex-end;
+  min-width: 57px;
+  padding: 15px 17.0px;
+}
+
+.icon-user-9 {
+  height: 26px;
+  object-fit: cover;
+  width: 22px;
+}
+
+.profile-17 {
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 8px;
+  margin-left: 16px;
+  margin-top: 1.0px;
+  width: 15px;
+}
+
+.sidebar-9 {
+  background-color: var(--white);
+  box-shadow: 18px 4px 70px #00000005;
+  display: flex;
+  flex-direction: column;
+  height: 1366px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 120px;
+}
+
+.menus-7 {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+  min-height: 285px;
+}
+
+.menu-4 {
+  height: 24px;
+  letter-spacing: 1.00px;
+  line-height: 16px;
+  width: 66px;
+}
+
+.dashboard-25 {
+  align-items: flex-start;
+  background-color: var(--gallery);
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  height: 50px;
+  justify-content: flex-end;
+  margin-right: 2px;
+  margin-top: 23px;
+  min-width: 74px;
+  padding: 13.3px 25.3px;
+  position: relative;
+}
+
+.email-4 {
+  align-items: center;
+  background-color: var(--white);
+  cursor: pointer;
+  display: flex;
+  height: 50px;
+  margin-right: 2px;
+  margin-top: 14px;
+  min-width: 74px;
+  padding: 0 28.2px;
+}
+
+.proposal-8 {
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 24px;
+  width: 18px;
+}
+
+.kanban-4 {
+  align-items: flex-start;
+  background-color: var(--white);
+  cursor: pointer;
+  display: flex;
+  height: 50px;
+  margin-right: 2px;
+  margin-top: 14px;
+  min-width: 74px;
+  padding: 13.3px 25.3px;
+  position: relative;
+}
+
+.overlap-group-90 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 50px;
+  margin-right: 2px;
+  margin-top: 10px;
+  min-width: 74px;
+  padding: 15.1px 24.3px;
+}
+
+.users-10 {
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 20px;
+  width: 25px;
+}
+
+.group-20 {
+  align-items: flex-start;
+  background-color: var(--silver-sand);
+  border-radius: 14px;
+  cursor: pointer;
+  display: flex;
+  height: 275px;
+  justify-content: flex-end;
+  left: 140px;
+  min-width: 275px;
+  padding: 45.7px 55.4px;
+  position: absolute;
+  top: 169px;
+}
+
+.add-friend-2-3 {
+  height: 184px;
+  object-fit: cover;
+  width: 164px;
+}
+
+.super-admin-10 {
+  cursor: pointer;
+  height: 26px;
+  left: 225px;
+  letter-spacing: 0;
+  line-height: 14px;
+  position: absolute;
+  text-align: center;
+  top: 460px;
+  width: 107px;
+}
+
+.level-status-custo-1 {
+  left: 482px;
+  letter-spacing: 0;
+  line-height: 26px;
+  position: absolute;
+  top: 221px;
+  white-space: nowrap;
+}
+
+.dashboard-26 {
+  height: 66px;
+  left: 482px;
+  letter-spacing: 0;
+  line-height: 38px;
+  position: absolute;
+  top: 150px;
+  width: 477px;
+}
+
+.overlap-group2-19 {
+  height: 36px;
+  left: 482px;
+  position: absolute;
+  top: 523px;
+  width: 367px;
+}
+
+.dashboard-27 {
+  height: 33px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 38px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 330px;
+}
+
+.samplenulifespancom-2 {
+  left: 173px;
+  letter-spacing: 0;
+  line-height: 26px;
+  position: absolute;
+  top: 10px;
+  white-space: nowrap;
+}
+
+.group-31 {
+  align-items: center;
+  display: flex;
+  height: 26px;
+  left: 482px;
+  min-width: 511px;
+  position: absolute;
+  top: 372px;
+}
+
+.icon-call-1 {
+  height: 22px;
+  margin-bottom: 1.5px;
+  object-fit: cover;
+  width: 22px;
+}
+
+.phone-1 {
+  letter-spacing: 0;
+  line-height: 26px;
+  margin-left: 12px;
+  min-height: 26px;
+  min-width: 61px;
+  white-space: nowrap;
+}
+
+.super-admin-11 {
+  align-self: flex-end;
+  height: 28px;
+  letter-spacing: 0;
+  line-height: 14px;
+  margin-bottom: -2px;
+  margin-left: 357px;
+  width: 59px;
+}
+
+.group-30 {
+  align-items: center;
+  display: flex;
+  height: 26px;
+  justify-content: flex-end;
+  left: 482px;
+  min-width: 511px;
+  position: absolute;
+  top: 447px;
+}
+
+.email-2-1-1 {
+  height: 14px;
+  margin-top: 0;
+  object-fit: cover;
+  width: 20px;
+}
+
+.email-5 {
+  letter-spacing: 0;
+  line-height: 26px;
+  margin-left: 14px;
+  min-height: 26px;
+  min-width: 51px;
+  white-space: nowrap;
+}
+
+.super-admin-12 {
+  align-self: flex-end;
+  height: 28px;
+  letter-spacing: 0;
+  line-height: 14px;
+  margin-bottom: -2px;
+  margin-left: 367px;
+  width: 59px;
+}
+

@@ -1,0 +1,137 @@
+.tablet-upload-avatar {
+  align-items: flex-start;
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 1366px;
+  padding: 122.0px 59.0px;
+  width: 1024px;
+}
+
+.overlay .tablet-upload-avatar {
+  background-color: #00000000;
+}
+
+.overlap-group3-13 {
+  height: 573px;
+  margin-left: 379px;
+  position: relative;
+  width: 527px;
+}
+
+.rectangle-17-1 {
+  background-color: var(--romance);
+  border-radius: 10px;
+  box-shadow: 0px 3px 6px #00000029;
+  height: 527px;
+  left: -23px;
+  position: absolute;
+  top: 23px;
+  transform: rotate(90deg);
+  width: 573px;
+}
+
+.overlap-group2-22 {
+  height: 129px;
+  left: 13px;
+  position: absolute;
+  top: 348px;
+  width: 500px;
+}
+
+.active-5 {
+  display: flex;
+  height: 129px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 500px;
+}
+
+.input-5 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-height: 100%;
+  width: 500.29px;
+}
+
+.input-box-5 {
+  height: 24px;
+  letter-spacing: 1.00px;
+  line-height: 16px;
+  margin-left: 0.71px;
+  width: 180px;
+}
+
+.overlap-group-94 {
+  align-items: center;
+  border-radius: 14px;
+  display: flex;
+  height: 60px;
+  margin-top: 12px;
+  min-width: 500px;
+  padding: 0 169.5px;
+}
+
+.input-here-9 {
+  height: 24px;
+  letter-spacing: 0;
+  line-height: 16px;
+  width: 156px;
+}
+
+.input-here-10 {
+  height: 24px;
+  letter-spacing: 0;
+  line-height: 12px;
+  margin-left: 0.71px;
+  margin-top: 11px;
+  width: 371px;
+}
+
+.overlap-group1-52 {
+  height: 36px;
+  left: 8px;
+  position: absolute;
+  top: 48px;
+  width: 151px;
+}
+
+.rectangle-19-2 {
+  background-color: var(--iron);
+  border-radius: 10px;
+  height: 36px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 149px;
+}
+
+.input-here-11 {
+  height: 24px;
+  left: 0;
+  letter-spacing: 0.08px;
+  line-height: 16px;
+  position: absolute;
+  text-align: center;
+  top: 7px;
+  width: 151px;
+}
+
+.change-profile-picture-2 {
+  height: 39px;
+  left: 13px;
+  letter-spacing: 0;
+  line-height: 38px;
+  position: absolute;
+  top: 6px;
+  white-space: nowrap;
+  width: 291px;
+}
+
+#overlay-tablet-upload-avatar {
+  background-color: transparent;
+}
+

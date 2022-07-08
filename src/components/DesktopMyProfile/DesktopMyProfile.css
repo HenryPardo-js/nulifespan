@@ -1,0 +1,496 @@
+.desktop-my-profile {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  width: 1920px;
+}
+
+.overlap-group6-6 {
+  background-color: var(--hint-of-red);
+  height: 1421px;
+  position: relative;
+  width: 1920px;
+}
+
+.overlap-group7-5 {
+  height: 1421px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.nav-12 {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  height: 120px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 1920px;
+  padding: 0 50px;
+  position: absolute;
+  top: 0;
+}
+
+.separator-6 {
+  background-color: var(--silver-sand);
+  border-radius: 8px;
+  height: 56px;
+  margin-left: 30px;
+  opacity: 0.5;
+  width: 1px;
+}
+
+.profile-15 {
+  align-items: flex-end;
+  cursor: pointer;
+  display: flex;
+  margin-bottom: 1.0px;
+  margin-left: 30px;
+  min-width: 223px;
+  position: relative;
+}
+
+.overlap-group2-18 {
+  align-items: flex-start;
+  background-color: var(--silver-sand);
+  border-radius: 14px;
+  display: flex;
+  height: 57px;
+  justify-content: flex-end;
+  min-width: 57px;
+  padding: 15px 17.0px;
+}
+
+.icon-user-8 {
+  height: 26px;
+  object-fit: cover;
+  width: 22px;
+}
+
+.sidebar-8 {
+  align-items: center;
+  background-color: var(--white);
+  box-shadow: 18px 4px 70px #00000005;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 1421px;
+  position: absolute;
+  top: 0;
+  width: 345px;
+}
+
+.menus-6 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 33px;
+  min-height: 242px;
+  width: 285px;
+}
+
+.x01-20 {
+  align-items: center;
+  background-color: var(--turmeric);
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  height: 50px;
+  min-width: 285px;
+  padding: 9px 22.3px;
+  position: relative;
+}
+
+.dashboard-21 {
+  align-self: flex-end;
+  height: 31px;
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 28px;
+  width: 98px;
+}
+
+.x02-9 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  height: 50px;
+  margin-top: 14px;
+  min-width: 285px;
+  padding: 9px 25.2px;
+}
+
+.proposal-7 {
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 24px;
+  width: 18px;
+}
+
+.projects-5 {
+  align-self: flex-end;
+  height: 29px;
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 31px;
+  width: 145px;
+}
+
+.x03-4 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  height: 50px;
+  margin-top: 14px;
+  min-width: 285px;
+  padding: 9px 23.3px;
+  position: relative;
+}
+
+.contacts-7 {
+  align-self: flex-end;
+  height: 29px;
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 26px;
+  width: 86px;
+}
+
+.x04-4 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  height: 50px;
+  margin-top: 14px;
+  min-width: 285px;
+  padding: 10px 21.3px;
+}
+
+.vector-167 {
+  height: 20px;
+  margin-bottom: 2.0px;
+  object-fit: cover;
+  width: 25px;
+}
+
+.my-tasks-6 {
+  align-self: flex-end;
+  height: 29px;
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 27px;
+  width: 99px;
+}
+
+.overlap-group3-9 {
+  background-color: var(--turmeric-2);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px #0000000d;
+  height: 600px;
+  margin-top: 33px;
+  width: 285px;
+}
+
+.overlap-group1-48 {
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 224px;
+  margin-top: 25px;
+  position: relative;
+  width: 309px;
+}
+
+.your-image-here-5 {
+  height: 191px;
+  left: 106px;
+  object-fit: cover;
+  position: absolute;
+  top: 15px;
+  width: 191px;
+}
+
+.sleepangle-4 {
+  height: 200px;
+  left: 159px;
+  object-fit: cover;
+  position: absolute;
+  top: 11px;
+  width: 135px;
+}
+
+.group-36 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 40px;
+  justify-content: flex-end;
+  left: 41px;
+  min-width: 114px;
+  position: absolute;
+  top: 143px;
+}
+
+.overlap-group-88 {
+  align-items: flex-start;
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 160px;
+  justify-content: flex-end;
+  margin-top: -44.24px;
+  min-width: 234px;
+  padding: 39.7px 85.3px;
+}
+
+.shop-now-9 {
+  letter-spacing: 0;
+  line-height: 49px;
+  min-height: 20px;
+  min-width: 62px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.on-sale-5 {
+  left: 41px;
+  letter-spacing: 0;
+  line-height: 26px;
+  position: absolute;
+  top: 34px;
+  white-space: nowrap;
+}
+
+.ongoing-11 {
+  height: 46px;
+  left: 41px;
+  letter-spacing: 0;
+  line-height: 12px;
+  position: absolute;
+  top: 59px;
+  width: 114px;
+}
+
+.overlap-group8-4 {
+  height: 91px;
+  left: 395px;
+  position: absolute;
+  top: 148px;
+  width: 330px;
+}
+
+.dashboard-22 {
+  height: 66px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 38px;
+  position: absolute;
+  top: 0;
+  width: 330px;
+}
+
+.welcome-3 {
+  height: 27px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  top: 64px;
+  width: 304px;
+}
+
+.overlap-group4-9 {
+  border-radius: 14px;
+  height: 275px;
+  left: 404px;
+  position: absolute;
+  top: 304px;
+  width: 275px;
+}
+
+.profile-picture {
+  background-color: var(--silver-sand);
+  border-radius: 14px;
+  cursor: pointer;
+  height: 275px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 275px;
+}
+
+.add-friend-2-2 {
+  height: 184px;
+  left: 55px;
+  object-fit: cover;
+  position: absolute;
+  top: 46px;
+  width: 164px;
+}
+
+.super-admin-7 {
+  cursor: pointer;
+  height: 26px;
+  left: 490px;
+  letter-spacing: 0;
+  line-height: 14px;
+  position: absolute;
+  text-align: center;
+  top: 595px;
+  width: 107px;
+}
+
+.group-23 {
+  align-items: center;
+  display: flex;
+  height: 411px;
+  left: 746px;
+  min-width: 511px;
+  position: absolute;
+  top: 287px;
+}
+
+.overlap-group5-6 {
+  height: 411px;
+  position: relative;
+  width: 402px;
+}
+
+.big-title {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 411px;
+  position: absolute;
+  top: 0;
+  width: 402px;
+}
+
+.dashboard-23 {
+  height: 66px;
+  letter-spacing: 0;
+  line-height: 38px;
+  margin-top: -2px;
+  width: 330px;
+}
+
+.level-status-custo {
+  letter-spacing: 0;
+  line-height: 26px;
+  margin-top: 5px;
+  min-height: 78px;
+  white-space: nowrap;
+}
+
+.phone {
+  letter-spacing: 0;
+  line-height: 26px;
+  margin-left: 34px;
+  margin-top: 65px;
+  min-height: 26px;
+  white-space: nowrap;
+}
+
+.email-3 {
+  color: var(--shadow-blue);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xl);
+  letter-spacing: 0;
+  line-height: 26px;
+  margin-left: 34px;
+  margin-top: 55px;
+  min-height: 26px;
+  white-space: nowrap;
+}
+
+.overlap-group-89 {
+  height: 34px;
+  margin-top: 52px;
+  position: relative;
+  width: 398px;
+}
+
+.dashboard-24 {
+  height: 33px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 38px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 330px;
+}
+
+.webaliasnulifespancom {
+  left: 166px;
+  letter-spacing: 0;
+  line-height: 26px;
+  position: absolute;
+  top: 8px;
+  white-space: nowrap;
+}
+
+.icon-call {
+  height: 22px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 215px;
+  width: 22px;
+}
+
+.email-2-1 {
+  height: 14px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 299px;
+  width: 20px;
+}
+
+.super-admin-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  margin-top: 139.0px;
+  min-height: 98px;
+  width: 59px;
+}
+
+.super-admin-8 {
+  cursor: pointer;
+  height: 28px;
+  letter-spacing: 0;
+  line-height: 14px;
+  width: 59px;
+}
+
+.super-admin-9 {
+  cursor: pointer;
+  height: 28px;
+  letter-spacing: 0;
+  line-height: 14px;
+  margin-top: 42px;
+  width: 59px;
+}
+
+.line-1-1 {
+  height: 1px;
+  left: 396px;
+  object-fit: cover;
+  position: absolute;
+  top: 760px;
+  width: 1418px;
+}
+

@@ -1,0 +1,87 @@
+.tablet-my-timifit {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  width: 1024px;
+}
+
+.overlap-group2-26 {
+  height: 1366px;
+  position: relative;
+  width: 1024px;
+}
+
+.background-15 {
+  background-color: var(--hint-of-red);
+  display: flex;
+  height: 1366px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1024px;
+}
+
+.dashboard-31 {
+  height: 66px;
+  letter-spacing: 0;
+  line-height: 38px;
+  margin-left: 148px;
+  margin-top: 173px;
+  width: 330px;
+}
+
+.nav-16 {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  height: 120px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 1024px;
+  padding: 0 47px;
+  position: absolute;
+  top: 0;
+}
+
+.separator-9 {
+  background-color: var(--black-haze);
+  border-radius: 8px;
+  height: 56px;
+  margin-left: 24px;
+  width: 1px;
+}
+
+.profile-19 {
+  align-items: center;
+  display: flex;
+  margin-bottom: 1.0px;
+  margin-left: 24px;
+  min-width: 88px;
+}
+
+.overlap-group1-54 {
+  align-items: flex-start;
+  background-color: var(--silver-sand);
+  border-radius: 14px;
+  display: flex;
+  height: 57px;
+  justify-content: flex-end;
+  min-width: 57px;
+  padding: 15.0px 17.0px;
+}
+
+.icon-user-11 {
+  height: 26px;
+  object-fit: cover;
+  width: 22px;
+}
+
+.profile-20 {
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 8px;
+  margin-left: 16px;
+  margin-top: 1.0px;
+  width: 15px;
+}
+

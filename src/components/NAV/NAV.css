@@ -1,0 +1,18 @@
+.nav-17 {
+  background-color: var(--white);
+  display: flex;
+  height: 120px;
+  justify-content: space-between;
+  position: relative;
+  width: 414px;
+}
+
+.logo-10 {
+  background-image: url(../../static/img/welcometonls-black2-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 40px;
+  margin-left: 26px;
+  width: 164px;
+}
+

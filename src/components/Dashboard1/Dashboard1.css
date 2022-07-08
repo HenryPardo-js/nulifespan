@@ -1,0 +1,34 @@
+.dashboard-1-1 {
+  align-items: flex-end;
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 20px;
+  margin-bottom: 3.5px;
+  min-width: 23px;
+  padding: 7.0px 10.5px;
+}
+
+.vector-80 {
+  height: 2px;
+  object-fit: cover;
+  width: 2px;
+}
+
+.dashboard-1-1.dashboard-1-2,
+.dashboard-1-1.dashboard-1-5,
+.dashboard-1-1.dashboard-1-7,
+.dashboard-1-1.dashboard-1-9,
+.dashboard-1-1.dashboard-1-11,
+.dashboard-1-1.dashboard-1-13 {
+  margin-bottom: unset;
+}
+
+.dashboard-1-1.dashboard-1-3 {
+  background-image: url(../../static/img/vector-105@1x.png);
+  left: 52px;
+  margin-bottom: unset;
+  position: absolute;
+  top: 13px;
+}
+

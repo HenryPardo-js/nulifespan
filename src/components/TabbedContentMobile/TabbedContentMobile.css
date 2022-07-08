@@ -1,0 +1,59 @@
+.tabbed-content-mobile,
+.tabbed-content-mobile-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 29px;
+  left: 16px;
+  min-width: 294px;
+  position: absolute;
+  top: 1467px;
+}
+
+.report-3,
+.report-3-1 {
+  align-items: flex-end;
+  display: flex;
+  height: 29px;
+  margin-left: 3px;
+  min-width: 71px;
+}
+
+.overlap-group2-9,
+.overlap-group2-10 {
+  height: 31px;
+  margin-bottom: -2px;
+  position: relative;
+  width: 71px;
+}
+
+.rectangle-6-1,
+.rectangle-6-2 {
+  height: 22px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 70px;
+}
+
+.projects-completed-7,
+.projects-completed-8 {
+  height: 25px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 8px;
+  position: absolute;
+  text-align: center;
+  top: 6px;
+  width: 71px;
+}
+
+.report-4,
+.report-4-1 {
+  display: flex;
+  height: 29px;
+  margin-left: 5px;
+  position: relative;
+  width: 69px;
+}
+

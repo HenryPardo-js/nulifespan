@@ -1,0 +1,45 @@
+.active {
+  display: flex;
+  height: 96px;
+  margin-top: 5px;
+  width: 301px;
+}
+
+.input {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-height: 100%;
+  width: 301.49px;
+}
+
+.input-box {
+  height: 24px;
+  letter-spacing: 1.00px;
+  line-height: 16px;
+  margin-left: 0.71px;
+  width: 151px;
+}
+
+.overlap-group-85 {
+  align-items: flex-start;
+  border-radius: 14px;
+  display: flex;
+  height: 60px;
+  margin-top: 12px;
+  min-width: 301px;
+  padding: 10px 21.0px;
+}
+
+.input-here {
+  height: 39px;
+  letter-spacing: 0;
+  line-height: 20px;
+  width: 156px;
+}
+
+.active.active-1 {
+  margin-top: 1px;
+}
+

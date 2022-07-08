@@ -1,0 +1,59 @@
+.default-state-2 {
+  align-items: flex-end;
+  display: flex;
+  height: 29px;
+  min-width: 71px;
+}
+
+.overlap-group-69 {
+  height: 31px;
+  margin-bottom: -2.0px;
+  position: relative;
+  width: 71px;
+}
+
+.path-39-1 {
+  height: 22px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 69px;
+}
+
+.projects-completed-9 {
+  height: 25px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 8px;
+  position: absolute;
+  text-align: center;
+  top: 6px;
+  width: 71px;
+}
+
+.default-state-2.report-2,
+.default-state-2.report-2-1 {
+  margin-left: 4px;
+}
+
+.default-state-2.report-2 .overlap-group-69,
+.default-state-2.report-2-1 .overlap-group-69,
+.default-state-2.group-17-1 .overlap-group-69,
+.default-state-2.group-17-2 .overlap-group-69 {
+  margin-bottom: -2px;
+}
+
+.default-state-2.report-2 .path-39-1,
+.default-state-2.report-2-1 .path-39-1,
+.default-state-2.group-17-1 .path-39-1,
+.default-state-2.group-17-2 .path-39-1 {
+  width: 68px;
+}
+
+.default-state-2.group-17-1,
+.default-state-2.group-17-2 {
+  flex: 1;
+  height: unset;
+}
+

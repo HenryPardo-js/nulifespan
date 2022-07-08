@@ -1,0 +1,35 @@
+.search-2-6,
+.search-2-8 {
+  align-items: flex-start;
+  display: flex;
+  min-width: 24px;
+}
+
+.vector-container-22,
+.vector-container-23 {
+  height: 24px;
+  margin-top: 0;
+  position: relative;
+  width: 24px;
+}
+
+.vector-137,
+.vector-139 {
+  height: 21px;
+  left: 3px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 21px;
+}
+
+.vector-138,
+.vector-140 {
+  height: 9px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 15px;
+  width: 9px;
+}
+

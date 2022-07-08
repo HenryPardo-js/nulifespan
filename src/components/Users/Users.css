@@ -1,0 +1,14 @@
+.users,
+.users-1,
+.users-2,
+.users-3,
+.users-4,
+.users-5,
+.users-6 {
+  display: flex;
+  height: 23px;
+  margin-bottom: 0;
+  position: relative;
+  width: 23px;
+}
+

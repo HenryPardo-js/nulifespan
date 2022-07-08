@@ -1,0 +1,197 @@
+.mobile-my-profile {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 1044px;
+  width: 414px;
+}
+
+.overlap-group-91 {
+  align-items: center;
+  background-color: var(--hint-of-red);
+  display: flex;
+  flex-direction: column;
+  min-height: 1044px;
+  width: 414px;
+}
+
+.nav-14 {
+  background-color: var(--white);
+  display: flex;
+  height: 120px;
+  justify-content: space-between;
+  position: relative;
+  width: 414px;
+}
+
+.logo-9 {
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 40px;
+  margin-left: 26px;
+  width: 164px;
+}
+
+.title-9 {
+  align-self: flex-start;
+  display: flex;
+  height: 45px;
+  margin-left: 16px;
+  margin-top: 21px;
+  width: 117px;
+}
+
+.contacts-8 {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-bottom: -2px;
+  margin-right: -2px;
+  width: 117px;
+}
+
+.group-20-1 {
+  align-items: flex-start;
+  background-color: var(--silver-sand);
+  border-radius: 14px;
+  cursor: pointer;
+  display: flex;
+  height: 275px;
+  justify-content: flex-end;
+  margin-left: 1.0px;
+  margin-top: 21px;
+  min-width: 275px;
+  padding: 45.7px 55.4px;
+}
+
+.add-friend-2-4 {
+  height: 184px;
+  object-fit: cover;
+  width: 164px;
+}
+
+.super-admin-13 {
+  cursor: pointer;
+  height: 26px;
+  letter-spacing: 0;
+  line-height: 14px;
+  margin-left: 3.0px;
+  margin-top: 16px;
+  text-align: center;
+  width: 107px;
+}
+
+.group-23-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 3.0px;
+  margin-top: 33px;
+  min-height: 441px;
+  width: 315px;
+}
+
+.dashboard-28 {
+  height: 66px;
+  letter-spacing: 0;
+  line-height: 38px;
+  margin-top: -2px;
+  width: 315px;
+}
+
+.level-status-custo-2 {
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-top: 4px;
+  min-height: 59px;
+  white-space: nowrap;
+}
+
+.flex-row-11 {
+  align-items: flex-start;
+  display: flex;
+  height: 26px;
+  margin-top: 90px;
+  min-width: 315px;
+}
+
+.icon-call-2 {
+  align-self: center;
+  height: 17px;
+  margin-top: 0.25px;
+  object-fit: cover;
+  width: 17px;
+}
+
+.phone-2 {
+  letter-spacing: 0;
+  line-height: 26px;
+  margin-left: 17px;
+  min-height: 19px;
+  min-width: 41px;
+  white-space: nowrap;
+}
+
+.super-admin-14 {
+  align-self: flex-end;
+  cursor: pointer;
+  height: 22px;
+  letter-spacing: 0;
+  line-height: 14px;
+  margin-left: 181px;
+  width: 59px;
+}
+
+.flex-row-12 {
+  align-items: flex-start;
+  display: flex;
+  height: 24px;
+  margin-top: 54px;
+  min-width: 315px;
+}
+
+.icon-mail {
+  align-self: center;
+  height: 13px;
+  margin-top: 1.52px;
+  object-fit: cover;
+  width: 19px;
+}
+
+.email-6 {
+  letter-spacing: 0;
+  line-height: 26px;
+  margin-left: 15px;
+  min-height: 19px;
+  min-width: 35px;
+  white-space: nowrap;
+}
+
+.super-admin-15 {
+  align-self: flex-end;
+  cursor: pointer;
+  height: 21px;
+  letter-spacing: 0;
+  line-height: 14px;
+  margin-left: 187px;
+  width: 59px;
+}
+
+.dashboard-29 {
+  height: 33px;
+  letter-spacing: 0;
+  line-height: 38px;
+  margin-bottom: -5px;
+  margin-top: 51px;
+  white-space: nowrap;
+}
+
+.samplenulifespancom-3 {
+  letter-spacing: 0;
+  line-height: 26px;
+  margin-top: 12px;
+  min-height: 26px;
+  white-space: nowrap;
+}
+

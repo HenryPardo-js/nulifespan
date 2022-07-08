@@ -1,0 +1,23 @@
+.x03-1,
+.x03-2 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 10px;
+  display: flex;
+  height: 50px;
+  margin-top: 14px;
+  min-width: 285px;
+  padding: 9px 23.3px;
+  position: relative;
+}
+
+.contacts-2,
+.contacts-3 {
+  align-self: flex-end;
+  height: 29px;
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 26px;
+  width: 86px;
+}
+

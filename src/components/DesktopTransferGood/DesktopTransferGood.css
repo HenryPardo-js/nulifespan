@@ -1,0 +1,19 @@
+.desktop-transfer-good {
+  align-items: flex-start;
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 1421px;
+  padding: 15px 651px;
+  position: relative;
+  width: 1920px;
+}
+
+.overlay .desktop-transfer-good {
+  background-color: #00000000;
+}
+
+#overlay-desktop-transfer-good {
+  background-color: transparent;
+}
+

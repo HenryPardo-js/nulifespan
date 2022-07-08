@@ -1,0 +1,10 @@
+.menus-8 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 33px;
+  min-height: 242px;
+  position: relative;
+  width: 285px;
+}
+

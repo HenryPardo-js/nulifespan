@@ -1,0 +1,54 @@
+.desktop-my-connections {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 1421px;
+  overflow: hidden;
+  width: 1920px;
+}
+
+.overlap-group-76 {
+  height: 1631px;
+  margin-left: -87px;
+  margin-top: -101px;
+  position: relative;
+  width: 2007px;
+}
+
+.background-9 {
+  height: 1421px;
+  left: 87px;
+  object-fit: cover;
+  position: absolute;
+  top: 101px;
+  width: 1920px;
+}
+
+.nav-3 {
+  height: 120px;
+  left: 87px;
+  object-fit: cover;
+  position: absolute;
+  top: 101px;
+  width: 1920px;
+}
+
+.sidebar-2 {
+  height: 1631px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 555px;
+}
+
+.dashboard-11 {
+  height: 66px;
+  left: 482px;
+  letter-spacing: 0;
+  line-height: 38px;
+  position: absolute;
+  top: 249px;
+  width: 330px;
+}
+

@@ -1,0 +1,33 @@
+.group-14,
+.group-14-1 {
+  align-items: flex-start;
+  background-color: var(--turmeric-2);
+  border-radius: 5px;
+  box-shadow: 2.78px 15.76px 40px #695f970d;
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  min-width: 88.82px;
+  padding: 2.8px 15.8px;
+}
+
+.path-43,
+.path-43-1 {
+  align-self: center;
+  height: 9px;
+  margin-top: 0;
+  object-fit: cover;
+  width: 9px;
+}
+
+.shop-now-1,
+.shop-now-2 {
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-left: 9px;
+  min-height: 13px;
+  min-width: 38px;
+  text-align: center;
+  white-space: nowrap;
+}
+

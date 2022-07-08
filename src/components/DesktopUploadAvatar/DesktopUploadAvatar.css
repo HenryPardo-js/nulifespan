@@ -1,0 +1,157 @@
+.desktop-upload-avatar {
+  align-items: flex-start;
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 1421px;
+  padding: 40px 219px;
+  width: 1920px;
+}
+
+.overlay .desktop-upload-avatar {
+  background-color: #00000000;
+}
+
+.overlap-group3-11 {
+  align-items: flex-start;
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  margin-left: 509px;
+  min-height: 435px;
+  padding: 27px 24px;
+  width: 973px;
+}
+
+.change-profile-picture {
+  color: var(--eerie-black);
+  font-family: var(--font-family-montserrat);
+  font-size: 34px;
+  font-weight: 700;
+  height: 51px;
+  letter-spacing: 0;
+  line-height: 38px;
+  margin-left: 4px;
+  width: 470px;
+}
+
+.group-28 {
+  align-items: flex-start;
+  display: flex;
+  height: 275px;
+  margin-top: 17px;
+  min-width: 912px;
+  position: relative;
+}
+
+.flex-col-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 28px;
+  min-height: 185px;
+  position: relative;
+  width: 609px;
+}
+
+.overlap-group2-20 {
+  height: 129px;
+  position: relative;
+  width: 609px;
+}
+
+.active-3 {
+  display: flex;
+  height: 129px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 609px;
+}
+
+.input-3 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-height: 100%;
+  width: 608.68px;
+}
+
+.input-box-3 {
+  height: 24px;
+  letter-spacing: 1.00px;
+  line-height: 16px;
+  margin-left: 0.71px;
+  width: 180px;
+}
+
+.overlap-group-92 {
+  align-items: center;
+  border-radius: 14px;
+  display: flex;
+  height: 60px;
+  margin-top: 12px;
+  min-width: 609px;
+  padding: 0 170.0px;
+}
+
+.input-here-3 {
+  height: 24px;
+  letter-spacing: 0;
+  line-height: 16px;
+  width: 156px;
+}
+
+.input-here-4 {
+  height: 24px;
+  letter-spacing: 0;
+  line-height: 10px;
+  margin-left: 0.71px;
+  margin-top: 11px;
+  width: 479px;
+}
+
+.overlap-group1-50 {
+  height: 36px;
+  left: 11px;
+  position: absolute;
+  top: 48px;
+  width: 151px;
+}
+
+.rectangle-19 {
+  background-color: var(--iron);
+  border-radius: 10px;
+  height: 36px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 149px;
+}
+
+.input-here-5 {
+  height: 24px;
+  left: 0;
+  letter-spacing: 0.08px;
+  line-height: 16px;
+  position: absolute;
+  text-align: center;
+  top: 7px;
+  width: 151px;
+}
+
+#overlay-desktop-upload-avatar .desktop-upload-avatar {
+  left: 395px;
+  top: 520px;
+}
+
+#overlay-desktop-upload-avatar {
+  background-color: transparent;
+}
+
+#overlay-desktop-upload-avatar .container-center-horizontal {
+  justify-content: normal;
+}
+

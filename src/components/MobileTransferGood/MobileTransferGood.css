@@ -1,0 +1,124 @@
+.mobile-transfer-good {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 812px;
+  padding: 27px 48px;
+  width: 414px;
+}
+
+.add-new-card-popup-1 {
+  display: flex;
+  height: 640px;
+  margin-top: 118px;
+  width: 318px;
+}
+
+.content-popup-2 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 30px;
+  box-shadow: 0px 4px 8px #695f971a;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-height: 100%;
+  padding: 24px 0;
+  position: relative;
+  width: 318px;
+}
+
+.flex-row-9 {
+  align-items: center;
+  display: flex;
+  height: 45px;
+  min-width: 254px;
+  position: relative;
+}
+
+.title-8 {
+  display: flex;
+  height: 24px;
+  margin-bottom: 1.0px;
+  width: 71px;
+}
+
+.place-2 {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 23px;
+  margin-bottom: -2.5px;
+  margin-right: -2px;
+  margin-top: 0.5px;
+  white-space: nowrap;
+  width: 71px;
+}
+
+.name-on-card-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-right: 2.0px;
+  margin-top: 31px;
+  min-height: 313px;
+  width: 252px;
+}
+
+.username-2 {
+  color: var(--black);
+  font-family: var(--font-family-manrope);
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: 44px;
+  margin-bottom: -27px;
+  margin-top: -14px;
+  min-height: 17px;
+  white-space: nowrap;
+}
+
+.overlap-group2-17 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 19px;
+  display: flex;
+  height: 33px;
+  margin-top: 21px;
+  min-width: 187px;
+  padding: 4.5px 14.5px;
+}
+
+.login-name-2 {
+  color: var(--shadow-blue);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xs);
+  letter-spacing: 0;
+  line-height: 23px;
+  min-height: 16px;
+  white-space: nowrap;
+}
+
+.before-you-can-make-2 {
+  letter-spacing: 0.12px;
+  line-height: 16px;
+  margin-top: 24px;
+  min-height: 51px;
+  white-space: nowrap;
+}
+
+.reach-a-minimum-of-2 {
+  letter-spacing: 0.12px;
+  line-height: 16px;
+  margin-top: 22px;
+  min-height: 51px;
+  white-space: nowrap;
+}
+
+.nu-life_2creditcards-2 {
+  align-self: center;
+  height: 91px;
+  margin-right: 11.0px;
+  margin-top: 18px;
+  object-fit: cover;
+  width: 139px;
+}
+

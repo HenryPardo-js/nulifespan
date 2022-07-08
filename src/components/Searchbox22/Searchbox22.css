@@ -1,0 +1,26 @@
+.searchbox-10,
+.searchbox-11,
+.searchbox-12,
+.searchbox-13 {
+  align-items: center;
+  background-color: var(--alabaster);
+  border-radius: 46px;
+  display: flex;
+  height: 68px;
+  min-width: 337px;
+  padding: 2px 38.0px;
+  position: relative;
+}
+
+.search-here-3,
+.search-here-4,
+.search-here-6,
+.search-here-7 {
+  align-self: flex-end;
+  height: 50px;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-left: 20px;
+  width: 158px;
+}
+

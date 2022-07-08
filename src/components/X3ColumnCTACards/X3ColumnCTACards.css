@@ -1,0 +1,11 @@
+.x3-column-cta-cards,
+.x3-column-cta-cards-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 120px;
+  left: 16px;
+  min-width: 382px;
+  position: absolute;
+  top: 236px;
+}
+

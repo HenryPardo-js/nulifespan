@@ -1,0 +1,62 @@
+.earning-report-4,
+.earning-report-5 {
+  display: flex;
+  height: 110px;
+  left: 96px;
+  position: absolute;
+  top: 526px;
+  width: 204px;
+}
+
+.text-earning-this-month-8,
+.text-earning-this-month-9 {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-height: 100%;
+  width: 206px;
+}
+
+.your-earnings-this-month-4,
+.your-earnings-this-month-5 {
+  letter-spacing: -0.14px;
+  line-height: 43px;
+  margin-bottom: -22px;
+  margin-left: 18.0px;
+  margin-top: -12px;
+  min-height: 21px;
+  min-width: 158px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.overlap-group-71,
+.overlap-group-72 {
+  height: 65px;
+  margin-top: 24px;
+  position: relative;
+  width: 206px;
+}
+
+.price-7,
+.price-8 {
+  left: 0;
+  letter-spacing: -1.15px;
+  line-height: 46px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.address-4,
+.address-5 {
+  left: 47px;
+  letter-spacing: 0;
+  line-height: 44px;
+  position: absolute;
+  text-align: center;
+  top: 46px;
+  white-space: nowrap;
+}
+

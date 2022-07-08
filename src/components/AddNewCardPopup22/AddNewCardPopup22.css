@@ -1,0 +1,129 @@
+.add-new-card-popup {
+  display: flex;
+  height: 491px;
+  width: 618px;
+}
+
+.content-popup {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 30px;
+  box-shadow: 0px 4px 8px #695f971a;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-height: 100%;
+  padding: 21.0px 0;
+  position: relative;
+  width: 618px;
+}
+
+.flex-row-7 {
+  align-items: center;
+  display: flex;
+  height: 45px;
+  margin-top: 3px;
+  min-width: 554px;
+  position: relative;
+}
+
+.title-6 {
+  display: flex;
+  height: 24px;
+  margin-bottom: 1.0px;
+  width: 71px;
+}
+
+.place {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 23px;
+  margin-bottom: -2.5px;
+  margin-right: -2px;
+  margin-top: 0.5px;
+  white-space: nowrap;
+  width: 71px;
+}
+
+.overlap-group4-7 {
+  height: 304px;
+  margin-top: 33px;
+  position: relative;
+  width: 554px;
+}
+
+.name-on-card {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 304px;
+  position: absolute;
+  top: 0;
+  width: 554px;
+}
+
+.username {
+  letter-spacing: 0;
+  line-height: 60px;
+  margin-bottom: -37px;
+  margin-top: -20px;
+  min-height: 23px;
+  white-space: nowrap;
+}
+
+.overlap-group3-7 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 19px;
+  display: flex;
+  height: 45px;
+  margin-top: 28px;
+  min-width: 554px;
+  padding: 9.5px 19.5px;
+}
+
+.login-name {
+  letter-spacing: 0;
+  line-height: 23px;
+  min-height: 21px;
+  white-space: nowrap;
+}
+
+.before-you-can-make {
+  letter-spacing: 0.14px;
+  line-height: 22px;
+  margin-top: 26px;
+  min-height: 43px;
+  white-space: nowrap;
+}
+
+.overlap-group2-15 {
+  height: 132px;
+  margin-top: 27px;
+  position: relative;
+  width: 524px;
+}
+
+.reach-a-minimum-of {
+  left: 0;
+  letter-spacing: 0.14px;
+  line-height: 22px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.nu-life_2creditcards {
+  height: 91px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 42px;
+  width: 139px;
+}
+
+.add-new-card-popup.tablet-transfer-good {
+  margin-top: 1px;
+}
+

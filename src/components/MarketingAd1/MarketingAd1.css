@@ -1,0 +1,45 @@
+.marketing-ad-1,
+.marketing-ad-1-1 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 33px;
+  min-width: 285px;
+}
+
+.overlap-group1-15,
+.overlap-group1-16 {
+  align-items: flex-end;
+  background-image: url(../../static/img/left-menu-ad1-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 10px;
+  display: flex;
+  height: 600px;
+  min-width: 285px;
+  padding: 40.2px 29px;
+}
+
+.button-withdraw-all-earning-2,
+.button-withdraw-all-earning-3 {
+  align-items: flex-start;
+  background-color: var(--turmeric-2);
+  border-radius: 10px;
+  box-shadow: 2.78px 15.76px 40px #695f970d;
+  display: flex;
+  height: 40px;
+  justify-content: flex-end;
+  min-width: 108px;
+  padding: 0 11.7px;
+}
+
+.coming-soon,
+.coming-soon-1 {
+  letter-spacing: 0;
+  line-height: 49px;
+  margin-top: -4.5px;
+  min-height: 20px;
+  min-width: 82px;
+  text-align: center;
+  white-space: nowrap;
+}
+

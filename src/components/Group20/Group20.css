@@ -1,0 +1,25 @@
+.group-20-2 {
+  align-items: flex-end;
+  background-color: var(--silver-sand);
+  border-radius: 14px;
+  display: flex;
+  height: 275px;
+  justify-content: flex-end;
+  min-width: 275px;
+  padding: 45.7px 55.4px;
+}
+
+.add-friend-2-5 {
+  height: 184px;
+  object-fit: cover;
+  width: 164px;
+}
+
+.group-20-2.group-20-3 {
+  align-items: flex-start;
+  left: 13px;
+  padding: 45.7px 55.1px;
+  position: absolute;
+  top: 50px;
+}
+

@@ -1,0 +1,804 @@
+.desktop-home-dashboard {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 1421px;
+  overflow: hidden;
+  width: 1920px;
+}
+
+.overlap-group11 {
+  height: 1432px;
+  position: relative;
+  width: 1920px;
+}
+
+.background {
+  background-color: var(--hint-of-red);
+  height: 1421px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.nav {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  height: 120px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 1920px;
+  padding: 0 50px;
+  position: absolute;
+  top: 0;
+}
+
+.separator {
+  background-color: var(--silver-sand);
+  border-radius: 8px;
+  height: 56px;
+  margin-left: 30px;
+  opacity: 0.5;
+  width: 1px;
+}
+
+.profile {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  margin-bottom: 1.0px;
+  margin-left: 30px;
+  min-width: 223px;
+  position: relative;
+}
+
+.overlap-group1 {
+  align-items: flex-start;
+  background-color: var(--silver-sand);
+  border-radius: 14px;
+  display: flex;
+  height: 57px;
+  justify-content: flex-end;
+  min-width: 57px;
+  padding: 15px 17.0px;
+}
+
+.icon-user {
+  height: 26px;
+  object-fit: cover;
+  width: 22px;
+}
+
+.sidebar {
+  align-items: center;
+  background-color: var(--white);
+  box-shadow: 18px 4px 70px #00000005;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 1421px;
+  position: absolute;
+  top: 0;
+  width: 345px;
+}
+
+.menus {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 33px;
+  min-height: 292px;
+  position: relative;
+  width: 285px;
+}
+
+.x02 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  height: 50px;
+  margin-top: 14px;
+  min-width: 285px;
+  padding: 9px 25.2px;
+}
+
+.proposal {
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 24px;
+  width: 18px;
+}
+
+.projects {
+  align-self: flex-end;
+  height: 29px;
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 31px;
+  width: 145px;
+}
+
+.x03 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  height: 50px;
+  margin-top: 14px;
+  min-width: 285px;
+  padding: 9px 23.3px;
+  position: relative;
+}
+
+.contacts {
+  align-self: flex-end;
+  height: 29px;
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 26px;
+  width: 86px;
+}
+
+.x04 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  margin-top: 14px;
+  min-height: 100px;
+  width: 285px;
+}
+
+.overlap-group {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 10px;
+  display: flex;
+  height: 50px;
+  min-width: 285px;
+  padding: 10px 21.3px;
+}
+
+.vector {
+  height: 20px;
+  margin-bottom: 2.0px;
+  object-fit: cover;
+  width: 25px;
+}
+
+.my-tasks {
+  align-self: flex-end;
+  height: 29px;
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 27px;
+  width: 99px;
+}
+
+.flex-row {
+  align-items: center;
+  display: flex;
+  margin-left: 21.27px;
+  margin-top: 23px;
+  min-width: 152px;
+}
+
+.vector-1 {
+  height: 20px;
+  margin-bottom: 3.0px;
+  object-fit: cover;
+  width: 25px;
+}
+
+.my-tasks-1 {
+  height: 29px;
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 27px;
+  width: 99px;
+}
+
+.marketing-ad-2 {
+  align-items: flex-start;
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  margin-top: 33px;
+  min-width: 285px;
+}
+
+.overlap-group2 {
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 224px;
+  margin-top: -8px;
+  position: relative;
+  width: 309px;
+}
+
+.your-image-here {
+  height: 191px;
+  left: 106px;
+  object-fit: cover;
+  position: absolute;
+  top: 15px;
+  width: 191px;
+}
+
+.sleepangle {
+  height: 200px;
+  left: 159px;
+  object-fit: cover;
+  position: absolute;
+  top: 11px;
+  width: 135px;
+}
+
+.group-25 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 40px;
+  justify-content: flex-end;
+  left: 41px;
+  min-width: 114px;
+  position: absolute;
+  top: 143px;
+}
+
+.overlap-group-1 {
+  align-items: flex-start;
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 160px;
+  margin-top: -44.24px;
+  min-width: 234px;
+  padding: 39.7px 84.0px;
+}
+
+.shop-now {
+  letter-spacing: 0;
+  line-height: 49px;
+  min-height: 20px;
+  min-width: 62px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.on-sale {
+  left: 41px;
+  letter-spacing: 0;
+  line-height: 26px;
+  position: absolute;
+  top: 34px;
+  white-space: nowrap;
+}
+
+.ongoing {
+  height: 46px;
+  left: 41px;
+  letter-spacing: 0;
+  line-height: 12px;
+  position: absolute;
+  top: 59px;
+  width: 114px;
+}
+
+.content {
+  align-items: flex-start;
+  display: flex;
+  height: 1312px;
+  left: 395px;
+  min-width: 1525px;
+  position: absolute;
+  top: 120px;
+}
+
+.over-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 28px;
+  min-height: 906px;
+  width: 1055px;
+}
+
+.overlap-group10 {
+  height: 91px;
+  position: relative;
+  width: 330px;
+}
+
+.dashboard {
+  height: 66px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 38px;
+  position: absolute;
+  top: 0;
+  width: 330px;
+}
+
+.welcome {
+  height: 27px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  top: 64px;
+  width: 304px;
+}
+
+.overview {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 38px;
+  min-height: 777px;
+  position: relative;
+  width: 1055px;
+}
+
+.flex-row-1 {
+  align-items: center;
+  display: flex;
+  margin-top: -8px;
+  min-width: 1067px;
+}
+
+.card-rewards {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px #0000000d;
+  display: flex;
+  height: 428px;
+  justify-content: flex-end;
+  margin-bottom: 8.0px;
+  min-width: 509px;
+  padding: 77.0px 65.6px;
+}
+
+.earning-report {
+  display: flex;
+  height: 273px;
+  width: 374px;
+}
+
+.text-earning-this-month {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-height: 100%;
+  width: 374.13px;
+}
+
+.your-rewards-cash {
+  letter-spacing: -0.16px;
+  line-height: 47px;
+  margin-bottom: -23px;
+  margin-right: 0.6px;
+  margin-top: -12px;
+  min-height: 24px;
+  min-width: 140px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.price {
+  letter-spacing: -1.23px;
+  line-height: 49px;
+  margin-right: 0.6px;
+  margin-top: 43px;
+  min-height: 69px;
+  min-width: 156px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.name {
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-right: 0.6px;
+  margin-top: 2px;
+  min-height: 41px;
+  min-width: 242px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.flex-row-2 {
+  align-items: center;
+  align-self: flex-start;
+  display: flex;
+  margin-top: 46px;
+  min-width: 386px;
+}
+
+.button-withdraw-all-earning {
+  align-items: flex-start;
+  background-color: var(--turmeric-2);
+  border-radius: 10px;
+  box-shadow: 2.78px 15.76px 40px #695f970d;
+  cursor: pointer;
+  display: flex;
+  height: 53px;
+  margin-bottom: 8.0px;
+  min-width: 168px;
+  padding: 1.9px 31.5px;
+}
+
+.icon {
+  align-self: center;
+  height: 15px;
+  margin-top: 3.09px;
+  object-fit: cover;
+  width: 17px;
+}
+
+.withdraw {
+  letter-spacing: 0;
+  line-height: 49px;
+  margin-left: 24px;
+  min-height: 20px;
+  min-width: 62px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.overlap-group-2 {
+  align-items: flex-start;
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 77px;
+  margin-left: 26px;
+  min-width: 192px;
+  padding: 6.3px 53.7px;
+}
+
+.icon-conect {
+  align-self: center;
+  height: 13px;
+  margin-bottom: 15.17px;
+  object-fit: cover;
+  width: 12px;
+}
+
+.shop {
+  letter-spacing: 0;
+  line-height: 49px;
+  margin-left: 16px;
+  min-height: 20px;
+  min-width: 34px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.overlap-group1-1 {
+  align-items: flex-start;
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 452px;
+  justify-content: flex-end;
+  margin-left: 25px;
+  min-width: 533px;
+  padding: 86px 119px;
+}
+
+.share-link {
+  display: flex;
+  height: 272px;
+  width: 294px;
+}
+
+.text-earning-this-month-1 {
+  display: flex;
+  flex: 1;
+  width: 294px;
+}
+
+.group-1 {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-height: 100%;
+  width: 296px;
+}
+
+.your-share-link {
+  letter-spacing: -0.16px;
+  line-height: 50px;
+  margin-bottom: -26px;
+  margin-top: -14px;
+  min-height: 24px;
+  min-width: 112px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.samplenulifespancom {
+  letter-spacing: -0.73px;
+  line-height: 54px;
+  margin-bottom: -12px;
+  margin-top: 43px;
+  min-height: 42px;
+  min-width: 296px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.share-your-link-with {
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-top: 33px;
+  min-height: 41px;
+  min-width: 206px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.button-withdraw-all-earning-1 {
+  align-items: flex-start;
+  background-color: var(--turmeric-2);
+  border-radius: 10px;
+  box-shadow: 2.78px 15.76px 40px #695f970d;
+  display: flex;
+  height: 53px;
+  margin-right: 3.76px;
+  margin-top: 50px;
+  min-width: 168px;
+  padding: 0.5px 33.8px;
+}
+
+.icon-file {
+  align-self: center;
+  height: 17px;
+  margin-top: 2.43px;
+  object-fit: cover;
+  width: 14px;
+}
+
+.copy {
+  letter-spacing: 0;
+  line-height: 49px;
+  margin-left: 33px;
+  min-height: 20px;
+  min-width: 34px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.overlap-group-container {
+  align-items: flex-start;
+  display: flex;
+  height: 227px;
+  margin-left: -12px;
+  margin-top: 14px;
+  min-width: 1079px;
+}
+
+.overlap-group2-1 {
+  align-items: flex-start;
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 227px;
+  padding: 38.6px 11.9px;
+  width: 351px;
+}
+
+.projects-completed {
+  height: 36px;
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 31.12px;
+  margin-top: 2px;
+  width: 152px;
+}
+
+.overlap-group-3 {
+  align-self: flex-end;
+  height: 110px;
+  margin-top: 1px;
+  position: relative;
+  width: 296px;
+}
+
+.growth {
+  display: flex;
+  height: 27px;
+  left: 0;
+  position: absolute;
+  top: 36px;
+  width: 212px;
+}
+
+.x15-than-last-month {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 14px;
+  margin-bottom: -2px;
+  margin-right: -2px;
+  width: 212px;
+}
+
+.chart-2 {
+  height: 49px;
+  left: 95px;
+  object-fit: cover;
+  position: absolute;
+  top: 62px;
+  width: 201px;
+}
+
+.number {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+}
+
+.overlap-group3 {
+  align-items: flex-start;
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  margin-left: 13px;
+  min-height: 227px;
+  padding: 40px 39px;
+  width: 351px;
+}
+
+.projects-in-progress {
+  height: 36px;
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 4px;
+  margin-top: 1px;
+  width: 183px;
+}
+
+.overlap-group-4 {
+  align-self: flex-end;
+  height: 109px;
+  margin-top: 1px;
+  position: relative;
+  width: 269px;
+}
+
+.group-11 {
+  align-items: flex-end;
+  display: flex;
+  height: 56px;
+  left: 196px;
+  min-width: 73px;
+  position: absolute;
+  top: 53px;
+}
+
+.chart {
+  background-color: var(--turmeric);
+  border-radius: 2.5px;
+  height: 29px;
+  width: 7px;
+}
+
+.chart-1 {
+  background-color: var(--turmeric);
+  border-radius: 2.5px;
+  height: 35px;
+  margin-left: 6px;
+  width: 7px;
+}
+
+.chart-3 {
+  background-color: var(--turmeric);
+  border-radius: 2.5px;
+  height: 45px;
+  margin-left: 7px;
+  width: 6px;
+}
+
+.chart-4 {
+  background-color: var(--turmeric);
+  border-radius: 2.5px;
+  height: 29px;
+  margin-left: 7px;
+  width: 6px;
+}
+
+.chart-5 {
+  background-color: var(--turmeric);
+  border-radius: 2.5px;
+  height: 56px;
+  margin-left: 7px;
+  width: 7px;
+}
+
+.chart-6 {
+  background-color: var(--turmeric);
+  border-radius: 2.5px;
+  height: 39px;
+  margin-left: 6px;
+  width: 7px;
+}
+
+.overlap-group4 {
+  align-items: flex-start;
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  margin-left: 13px;
+  min-height: 227px;
+  padding: 33.3px 30.0px;
+  width: 351px;
+}
+
+.upcoming-projects {
+  height: 36px;
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 13.0px;
+  margin-top: 8px;
+  width: 114px;
+}
+
+.overlap-group1-2 {
+  align-self: flex-end;
+  height: 116px;
+  margin-top: 1px;
+  position: relative;
+  width: 276px;
+}
+
+.overlap-group-5 {
+  height: 69px;
+  left: 206px;
+  position: absolute;
+  top: 47px;
+  width: 70px;
+}
+
+.bg {
+  height: 69px;
+  left: 1px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 69px;
+}
+
+.circle-chart {
+  height: 69px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 69px;
+}
+
+.percent {
+  left: 17px;
+  letter-spacing: 0;
+  line-height: 64px;
+  position: absolute;
+  top: 1px;
+  white-space: nowrap;
+}
+

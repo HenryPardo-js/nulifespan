@@ -1,0 +1,19 @@
+.tablet-transfer-error-1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  width: 1024px;
+}
+
+.overlap-group3-16 {
+  align-items: flex-end;
+  background-color: var(--hint-of-red);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 1366px;
+  min-width: 1024px;
+  padding: 437px 203px;
+  position: relative;
+}
+

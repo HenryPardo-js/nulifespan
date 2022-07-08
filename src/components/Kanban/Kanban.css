@@ -1,0 +1,13 @@
+.kanban-1,
+.kanban-2 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 50px;
+  margin-right: 2px;
+  margin-top: 14px;
+  min-width: 74px;
+  padding: 13.3px 25.3px;
+  position: relative;
+}
+

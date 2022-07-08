@@ -1,0 +1,43 @@
+.button-close {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 19px;
+  display: flex;
+  height: 45px;
+  margin-right: 16px;
+  min-width: 45px;
+  padding: 15.6px 15.6px;
+}
+
+.icon-close {
+  height: 13px;
+  object-fit: cover;
+  width: 13px;
+}
+
+.button-close.button-close-copy-2,
+.button-close.button-close-copy-2-1 {
+  margin-left: 438px;
+  margin-right: unset;
+}
+
+.button-close.button-close-copy-2-2 {
+  margin-left: 138px;
+  margin-right: unset;
+  padding: 15.6px 15.5px;
+}
+
+.button-close.button-close-copy-2-3,
+.button-close.button-close-copy-2-4 {
+  margin-left: 451px;
+  margin-right: unset;
+}
+
+.button-close.button-close-copy-2-5 {
+  left: 241px;
+  margin-right: unset;
+  padding: 15.6px 15.5px;
+  position: absolute;
+  top: 24px;
+}
+

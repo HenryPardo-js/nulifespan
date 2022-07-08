@@ -1,0 +1,30 @@
+.x04-2,
+.x04-3 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 10px;
+  display: flex;
+  height: 50px;
+  margin-top: 14px;
+  min-width: 285px;
+  padding: 10px 21.3px;
+}
+
+.vector-165,
+.vector-166 {
+  height: 20px;
+  margin-bottom: 2.0px;
+  object-fit: cover;
+  width: 25px;
+}
+
+.my-tasks-4,
+.my-tasks-5 {
+  align-self: flex-end;
+  height: 29px;
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 27px;
+  width: 99px;
+}
+

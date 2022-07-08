@@ -1,0 +1,94 @@
+.icons {
+  display: flex;
+  height: 41px;
+  margin-bottom: 19.33px;
+  margin-left: 40px;
+  width: 37px;
+}
+
+.notification {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  min-width: 36.67px;
+}
+
+.overlap-group1-3 {
+  height: 44px;
+  margin-top: -3px;
+  position: relative;
+  width: 40px;
+}
+
+.bell-1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 23px;
+  padding: 0.0px 0;
+  position: absolute;
+  top: 20px;
+  width: 23px;
+}
+
+.vector-56 {
+  height: 19px;
+  object-fit: cover;
+  width: 23px;
+}
+
+.vector-57 {
+  height: 4px;
+  margin-left: 0;
+  margin-top: 1px;
+  object-fit: cover;
+  width: 9px;
+}
+
+.overlap-group-12 {
+  align-items: flex-start;
+  background-color: var(--mine-shaft);
+  border-radius: 14px;
+  display: flex;
+  height: 32px;
+  left: 8px;
+  min-width: 32px;
+  padding: 3px 7px;
+  position: absolute;
+  top: 0;
+}
+
+.number-1 {
+  height: 23px;
+  letter-spacing: 0;
+  line-height: 14px;
+  width: 16px;
+}
+
+.icons.icons-1,
+.icons.icons-3,
+.icons.icons-5,
+.icons.icons-7,
+.icons.icons-9,
+.icons.icons-11 {
+  margin-left: 306px;
+}
+
+.icons.icons-1 .notification,
+.icons.icons-3 .notification,
+.icons.icons-5 .notification,
+.icons.icons-7 .notification,
+.icons.icons-9 .notification,
+.icons.icons-11 .notification {
+  min-width: 36.67px;
+}
+
+.icons.icons-2 .bell-1,
+.icons.icons-3 .bell-1,
+.icons.icons-8 .bell-1,
+.icons.icons-9 .bell-1 {
+  padding: unset;
+}
+

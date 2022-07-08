@@ -1,0 +1,49 @@
+.mobile-my-connections {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 1103px;
+  overflow: hidden;
+  width: 414px;
+}
+
+.overlap-group-78 {
+  align-items: flex-end;
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 1337px;
+  width: 414px;
+}
+
+.nav-5 {
+  height: 120px;
+  object-fit: cover;
+  width: 414px;
+}
+
+.flex-row-6 {
+  align-items: flex-start;
+  display: flex;
+  height: 83px;
+  margin-right: 4px;
+  margin-top: 5px;
+  min-width: 394px;
+}
+
+.projects-2 {
+  height: 62px;
+  object-fit: cover;
+  width: 230px;
+}
+
+.searchbox-9 {
+  align-self: flex-end;
+  cursor: pointer;
+  height: 80px;
+  margin-left: 84px;
+  object-fit: cover;
+  width: 80px;
+}
+

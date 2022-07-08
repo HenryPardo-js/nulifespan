@@ -1,0 +1,36 @@
+.mobile-my-team {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 1044px;
+  width: 414px;
+}
+
+.overlap-group1-40 {
+  align-items: center;
+  background-color: var(--hint-of-red);
+  display: flex;
+  flex-direction: column;
+  min-height: 1044px;
+  position: relative;
+  width: 414px;
+}
+
+.nav-10 {
+  background-color: var(--white);
+  display: flex;
+  height: 120px;
+  justify-content: space-between;
+  position: relative;
+  width: 414px;
+}
+
+.logo-8 {
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 40px;
+  margin-left: 26px;
+  width: 164px;
+}
+

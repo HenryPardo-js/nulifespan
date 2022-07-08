@@ -1,0 +1,65 @@
+.touch-board-2 {
+  display: flex;
+  height: 120px;
+  width: 120px;
+}
+
+.card-1 {
+  align-items: flex-start;
+  background-color: var(--turmeric);
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px #0000000a;
+  display: flex;
+  flex: 1;
+  min-width: 120px;
+  padding: 32px 0;
+}
+
+.group-15 {
+  align-items: flex-end;
+  display: flex;
+  height: 49px;
+  min-width: 122px;
+}
+
+.overlap-group-61 {
+  height: 51px;
+  margin-bottom: -2px;
+  position: relative;
+  width: 122px;
+}
+
+.rewards-cash {
+  height: 17px;
+  left: 0;
+  letter-spacing: 0.22px;
+  line-height: 9px;
+  position: absolute;
+  text-align: center;
+  top: 34px;
+  width: 122px;
+}
+
+.x0 {
+  height: 36px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 122px;
+}
+
+.touch-board-2.touch-board,
+.touch-board-2.touch-board-4,
+.touch-board-2.touch-board-1,
+.touch-board-2.touch-board-1-1 {
+  margin-left: 11px;
+}
+
+.touch-board-2.touch-board-4 .x0,
+.touch-board-2.touch-board-1-1 .x0 {
+  height: unset;
+}
+

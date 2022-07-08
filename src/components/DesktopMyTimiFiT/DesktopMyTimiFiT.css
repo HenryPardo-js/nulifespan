@@ -1,0 +1,183 @@
+.desktop-my-timifit {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  width: 1920px;
+}
+
+.overlap-group4-11 {
+  background-color: var(--hint-of-red);
+  height: 1421px;
+  position: relative;
+  width: 1920px;
+}
+
+.overlap-group5-7 {
+  height: 1421px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.nav-15 {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  height: 120px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 1920px;
+  padding: 0 50px;
+  position: absolute;
+  top: 0;
+}
+
+.separator-8 {
+  background-color: var(--silver-sand);
+  border-radius: 8px;
+  height: 56px;
+  margin-left: 30px;
+  opacity: 0.5;
+  width: 1px;
+}
+
+.profile-18 {
+  align-items: flex-end;
+  display: flex;
+  margin-bottom: 1.0px;
+  margin-left: 30px;
+  min-width: 223px;
+  position: relative;
+}
+
+.overlap-group2-25 {
+  align-items: flex-start;
+  background-color: var(--silver-sand);
+  border-radius: 14px;
+  display: flex;
+  height: 57px;
+  justify-content: flex-end;
+  min-width: 57px;
+  padding: 15.0px 17.0px;
+}
+
+.icon-user-10 {
+  height: 26px;
+  object-fit: cover;
+  width: 22px;
+}
+
+.sidebar-10 {
+  align-items: center;
+  background-color: var(--white);
+  box-shadow: 18px 4px 70px #00000005;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 1421px;
+  position: absolute;
+  top: 0;
+  width: 345px;
+}
+
+.overlap-group3-15 {
+  background-color: var(--turmeric-2);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px #0000000d;
+  height: 600px;
+  margin-top: 33px;
+  width: 285px;
+}
+
+.overlap-group1-53 {
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 224px;
+  margin-top: 25px;
+  position: relative;
+  width: 309px;
+}
+
+.your-image-here-6 {
+  height: 191px;
+  left: 106px;
+  object-fit: cover;
+  position: absolute;
+  top: 15px;
+  width: 191px;
+}
+
+.sleepangle-5 {
+  height: 200px;
+  left: 159px;
+  object-fit: cover;
+  position: absolute;
+  top: 11px;
+  width: 135px;
+}
+
+.group-36-1 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 40px;
+  justify-content: flex-end;
+  left: 41px;
+  min-width: 114px;
+  position: absolute;
+  top: 143px;
+}
+
+.overlap-group-99 {
+  align-items: flex-start;
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 160px;
+  justify-content: flex-end;
+  margin-top: -44.24px;
+  min-width: 234px;
+  padding: 39.7px 85.3px;
+}
+
+.shop-now-10 {
+  letter-spacing: 0;
+  line-height: 49px;
+  min-height: 20px;
+  min-width: 62px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.on-sale-6 {
+  left: 41px;
+  letter-spacing: 0;
+  line-height: 26px;
+  position: absolute;
+  top: 34px;
+  white-space: nowrap;
+}
+
+.ongoing-12 {
+  height: 46px;
+  left: 41px;
+  letter-spacing: 0;
+  line-height: 12px;
+  position: absolute;
+  top: 59px;
+  width: 114px;
+}
+
+.dashboard-30 {
+  height: 66px;
+  left: 383px;
+  letter-spacing: 0;
+  line-height: 38px;
+  position: absolute;
+  top: 174px;
+  width: 330px;
+}
+

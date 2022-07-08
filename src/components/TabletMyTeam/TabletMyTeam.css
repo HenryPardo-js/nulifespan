@@ -1,0 +1,180 @@
+.tablet-my-team {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  width: 1024px;
+}
+
+.overlap-group2-14 {
+  background-color: var(--hint-of-red);
+  height: 1366px;
+  position: relative;
+  width: 1024px;
+}
+
+.overlap-group3-6 {
+  height: 1366px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1024px;
+}
+
+.nav-11 {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  height: 120px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 1024px;
+  padding: 0 47px;
+  position: absolute;
+  top: 0;
+}
+
+.separator-5 {
+  background-color: var(--black-haze);
+  border-radius: 8px;
+  height: 56px;
+  margin-left: 24px;
+  width: 1px;
+}
+
+.profile-13 {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  margin-bottom: 1.0px;
+  margin-left: 24px;
+  min-width: 88px;
+}
+
+.overlap-group1-41 {
+  align-items: flex-start;
+  background-color: var(--silver-sand);
+  border-radius: 14px;
+  display: flex;
+  height: 57px;
+  justify-content: flex-end;
+  min-width: 57px;
+  padding: 15px 17.0px;
+}
+
+.icon-user-7 {
+  height: 26px;
+  object-fit: cover;
+  width: 22px;
+}
+
+.profile-14 {
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 8px;
+  margin-left: 16px;
+  margin-top: 1.0px;
+  width: 15px;
+}
+
+.sidebar-7 {
+  background-color: var(--white);
+  box-shadow: 18px 4px 70px #00000005;
+  display: flex;
+  flex-direction: column;
+  height: 1366px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 120px;
+}
+
+.menus-5 {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+  min-height: 285px;
+}
+
+.menu-3 {
+  height: 24px;
+  letter-spacing: 1.00px;
+  line-height: 16px;
+  width: 66px;
+}
+
+.dashboard-19 {
+  align-items: flex-start;
+  background-color: var(--gallery);
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  height: 50px;
+  justify-content: flex-end;
+  margin-right: 2px;
+  margin-top: 23px;
+  min-width: 74px;
+  padding: 13.3px 25.3px;
+  position: relative;
+}
+
+.email-2 {
+  align-items: center;
+  background-color: var(--white);
+  cursor: pointer;
+  display: flex;
+  height: 50px;
+  margin-right: 2px;
+  margin-top: 14px;
+  min-width: 74px;
+  padding: 0 28.2px;
+}
+
+.proposal-6 {
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 24px;
+  width: 18px;
+}
+
+.kanban-3 {
+  align-items: flex-start;
+  background-color: var(--white);
+  cursor: pointer;
+  display: flex;
+  height: 50px;
+  margin-right: 2px;
+  margin-top: 14px;
+  min-width: 74px;
+  padding: 13.3px 25.3px;
+  position: relative;
+}
+
+.overlap-group-84 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 50px;
+  margin-right: 2px;
+  margin-top: 10px;
+  min-width: 74px;
+  padding: 15.1px 24.3px;
+}
+
+.users-9 {
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 20px;
+  width: 25px;
+}
+
+.dashboard-20 {
+  height: 66px;
+  left: 150px;
+  letter-spacing: 0;
+  line-height: 38px;
+  position: absolute;
+  top: 159px;
+  width: 330px;
+}
+

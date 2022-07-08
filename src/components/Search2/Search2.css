@@ -1,0 +1,73 @@
+.search-2 {
+  align-items: flex-start;
+  display: flex;
+  height: 27.99px;
+  margin-left: 38.0px;
+  margin-top: -14.0px;
+  min-width: 28px;
+}
+
+.vector-container {
+  height: 28px;
+  margin-top: 50;
+  position: relative;
+  /* align-items: center; */
+  width: 28px;
+}
+
+.vector-2 {
+  height: 24px;
+  left: 4px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 24px;
+}
+
+.vector-3 {
+  height: 10px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 18px;
+  width: 10px;
+}
+
+.search-2.search-2-1,
+.search-2.search-2-11 {
+  align-self: center;
+  height: unset;
+  margin-bottom: 0;
+  margin-left: unset;
+  margin-top: unset;
+  min-width: 28px;
+}
+
+.search-2.search-2-2 {
+  padding: 0.0px 0;
+}
+
+.search-2.search-2-2 .vector-container,
+.search-2.search-2-3 .vector-container {
+  margin-top: unset;
+}
+
+.search-2.search-2-3 {
+  height: unset;
+  margin-bottom: 0;
+  margin-left: unset;
+  margin-top: unset;
+  min-width: 28px;
+  padding: 0.0px 0;
+}
+
+.search-2.search-2-5,
+.search-2.search-2-7,
+.search-2.search-2-9 {
+  height: unset;
+  margin-bottom: 0;
+  margin-left: unset;
+  margin-top: unset;
+  min-width: 28px;
+}
+

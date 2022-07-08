@@ -1,0 +1,99 @@
+.mobile-transfer-error {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 812px;
+  padding: 27px 48px;
+  width: 414px;
+}
+
+.add-new-card-popup-3 {
+  display: flex;
+  height: 640px;
+  margin-top: 118px;
+  width: 318px;
+}
+
+.content-popup-5 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  min-width: 318px;
+}
+
+.overlap-group3-17 {
+  border-radius: 30px;
+  height: 640px;
+  position: relative;
+  width: 318px;
+}
+
+.bg-copy-4 {
+  align-items: flex-end;
+  background-color: var(--white);
+  border-radius: 30px;
+  box-shadow: 0px 4px 8px #695f971a;
+  display: flex;
+  height: 640px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 318px;
+  padding: 38.9px 58.5px;
+  position: absolute;
+  top: 0;
+}
+
+.having-trouble-emai-2 {
+  color: var(--shadow-blue);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xxs);
+  letter-spacing: 0;
+  line-height: 39px;
+  min-height: 15px;
+  min-width: 199px;
+  white-space: nowrap;
+}
+
+.name-on-card-3 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 32px;
+  min-height: 256px;
+  position: absolute;
+  top: 179px;
+  width: 246px;
+}
+
+.something-is-not-qui-2 {
+  letter-spacing: 0.12px;
+  line-height: 16px;
+  min-height: 67px;
+  white-space: nowrap;
+}
+
+.overlap-group2-27 {
+  height: 148px;
+  margin-top: 43px;
+  position: relative;
+  width: 246px;
+}
+
+.you-have-not-reach-2 {
+  left: 0;
+  letter-spacing: 0.12px;
+  line-height: 16px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.or-an-error-has-o-2 {
+  left: 0;
+  letter-spacing: 0.12px;
+  line-height: 16px;
+  position: absolute;
+  top: 65px;
+  white-space: nowrap;
+}
+

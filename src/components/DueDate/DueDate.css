@@ -1,0 +1,42 @@
+.due-date-2 {
+  align-self: flex-end;
+  display: flex;
+  height: 35px;
+  margin-left: 14px;
+  width: 115px;
+}
+
+.x1000-1100-6 {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 12px;
+  margin-bottom: -2px;
+  margin-right: -2px;
+  text-align: right;
+  width: 115px;
+}
+
+.due-date-2.due-date-3,
+.due-date-2.due-date-6 {
+  align-self: unset;
+  left: 167px;
+  margin-left: unset;
+  position: absolute;
+  top: 27px;
+}
+
+.due-date-2.due-date-4,
+.due-date-2.due-date-7 {
+  align-self: unset;
+  left: 165px;
+  margin-left: unset;
+  position: absolute;
+  top: 27px;
+  width: 117px;
+}
+
+.due-date-2.due-date-4 .x1000-1100-6,
+.due-date-2.due-date-7 .x1000-1100-6 {
+  width: 117px;
+}
+

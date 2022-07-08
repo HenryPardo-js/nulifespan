@@ -1,0 +1,166 @@
+.pagination {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 830px;
+  min-width: 340px;
+}
+
+.btn-prev {
+  align-items: flex-start;
+  border-radius: 14px;
+  display: flex;
+  height: 50px;
+  min-width: 50px;
+  padding: 18px;
+}
+
+.ic_chevron {
+  align-items: flex-start;
+  display: flex;
+  height: 12px;
+  min-width: 13px;
+  transform: rotate(180deg);
+}
+
+.vector-container-35 {
+  height: 15px;
+  margin-left: -1px;
+  margin-top: -1.41px;
+  position: relative;
+  width: 15px;
+}
+
+.vector-157 {
+  height: 15px;
+  left: 7px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  transform: rotate(-180deg);
+  width: 8px;
+}
+
+.vector-158 {
+  height: 15px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  transform: rotate(-180deg);
+  width: 8px;
+}
+
+.number-20 {
+  align-items: flex-end;
+  display: flex;
+  height: 58px;
+  margin-left: 10px;
+  min-width: 220px;
+}
+
+.overlap-group-81 {
+  height: 60px;
+  margin-bottom: -2px;
+  position: relative;
+  width: 220px;
+}
+
+.background-13 {
+  border-radius: 14px;
+  height: 51px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 220px;
+}
+
+.selected-page {
+  background-color: var(--turmeric);
+  border-radius: 14px;
+  box-shadow: 0px 7px 32px #00000024;
+  height: 51px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 51px;
+}
+
+.number-21 {
+  height: 49px;
+  left: 22px;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  top: 11px;
+  width: 9px;
+}
+
+.number-22 {
+  height: 49px;
+  left: 73px;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  top: 11px;
+  width: 13px;
+}
+
+.number-23 {
+  height: 49px;
+  left: 128px;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  top: 11px;
+  width: 13px;
+}
+
+.number-24 {
+  height: 49px;
+  left: 183px;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  top: 11px;
+  width: 14px;
+}
+
+.btn-next {
+  align-items: flex-start;
+  border-radius: 14px;
+  display: flex;
+  height: 50px;
+  margin-left: 10px;
+  min-width: 50px;
+  padding: 18px 17px;
+}
+
+.ic_chevron-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 12px;
+  min-width: 13px;
+}
+
+.vector-159 {
+  height: 15px;
+  left: 7px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 8px;
+}
+
+.vector-160 {
+  height: 15px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 8px;
+}
+
+.pagination.pagination-1 {
+  margin-top: 776px;
+}
+

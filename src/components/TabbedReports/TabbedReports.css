@@ -1,0 +1,10 @@
+.tabbed-reports,
+.tabbed-reports-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 47px;
+  margin-top: 45px;
+  min-width: 646px;
+  position: relative;
+}
+

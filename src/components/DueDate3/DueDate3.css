@@ -1,0 +1,26 @@
+.due-date-14-1 {
+  display: flex;
+  height: 14px;
+  left: 1px;
+  position: absolute;
+  top: 35px;
+  width: 168px;
+}
+
+.x1000-1100-14 {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 7px;
+  margin-bottom: -2px;
+  margin-right: -2px;
+  width: 168px;
+}
+
+.due-date-14-1.due-date-16,
+.due-date-14-1.due-date-17 {
+  display: flex;
+  height: 14px;
+  margin-left: 0.38px;
+  width: 168px;
+}
+
