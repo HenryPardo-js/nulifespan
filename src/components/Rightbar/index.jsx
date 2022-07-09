@@ -1,7 +1,7 @@
 import React,{useEffect, useState} from "react";
 import Date from "../Date";
 import DueDate from "../DueDate";
-import {getDate} from "../Date/fecha"
+import {getDate, changeDate} from "../Date/fecha"
 import {getCustomer} from "../api/info"
 import "./Rightbar.css";
 
@@ -21,8 +21,6 @@ function Rightbar(props) {
   useEffect(() => {
     (async () => {
       const response = await getCustomer("jd@nulifespan.com");
-      // console.log(response.lasttransactions);
-      // setdataUser(response[0]);
       setLastSix(response.lasttransactions);
       setfecha(getDate());
     })();
@@ -104,25 +102,34 @@ function Rightbar(props) {
         <div className="title">
           <div className="schedule-1 gotham-bold-eerie-black-24px">Recent Activity</div>
           <div className="thursday-january-10th-2022 opensans-semi-bold-quick-silver-16px">
-            Thursday January 10th, 2022
+            {fecha}
           </div>
         </div>
         <div className="items">
-          <div className="overlap-group6">
-            <div className="line"></div>
-            <div className="x01-4">
-              <div className="overlap-group-35">
-                <img className="icon-user-1" src={require("../../static/img/icon-10@1x.png")} />
+          {
+            lastSix&&(Array.isArray(lastSix)? lastSix.map(element=>(
+              <div className="overlap-group6" style={{marginBottom:10}}>
+                <div className="line"></div>
+                <div className="x01-4">
+                  <div className="overlap-group-35">
+                    <img className="icon-user-1" src={require("../../static/img/icon-10@1x.png")} />
+                  </div>
+                  <div className="overlap-group1-17">
+                    <div className="meeting-with-client manrope-bold-eerie-black-18px">{element.firstName}</div>
+                    <div className="date">
+                      <div className="calendar"></div>
+                      <div className="date-1 manrope-normal-quick-silver-14px">{changeDate(element.date)}</div>
+                    </div>
+                  </div>
+                  <DueDate>{element.customerType}</DueDate>
+                </div>
+                <div className="x1000-1100 manrope-normal-turmeric-12px">Personal Purchase ${element.value}</div>
               </div>
-              <div className="overlap-group1-17">
-                <div className="meeting-with-client manrope-bold-eerie-black-18px">Nancy Smithe</div>
-                <Date />
-              </div>
-              <DueDate>{dueDate1Props.children}</DueDate>
-            </div>
-            <div className="x1000-1100 manrope-normal-turmeric-12px">Quantity 1: Ake’s Capsules</div>
-          </div>
-          <div className="overlap-group7">
+            )):null
+            )
+          }
+          
+          {/* <div className="overlap-group7">
             <div className="line-1"></div>
             <div className="x2">
               <div className="overlap-group-30">
@@ -137,8 +144,8 @@ function Rightbar(props) {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="x3">
+          </div> */}
+          {/* <div className="x3">
             <div className="overlap-group-30">
               <img className="icon-user-1" src={require("../../static/img/icon-10@1x.png")} />
             </div>
@@ -148,7 +155,7 @@ function Rightbar(props) {
               <Date />
               <div className="x1000-1100-2 manrope-normal-turmeric-12px">Quantity 1: Ake’s Capsules</div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
