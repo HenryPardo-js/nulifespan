@@ -1,13 +1,22 @@
-import React from "react";
+import React,{useState,useEffect} from "react";
 import { Link } from "react-router-dom";
 import Searchbox from "../Searchbox";
 import Group2 from "../Group2";
 import Icons from "../Icons";
 import Profile from "../Profile";
 import Header3 from "../Header3";
+import MarketingAd1 from "../MarketingAd1"; 
 import Dashboard1 from "../Dashboard1";
 import Users from "../Users";
 import "./DesktopMyProfile.css";
+import fondo from "../../static/img/path-38-1@1x.png"
+import fondo2 from "../../static/img/bg-3@1x.png"
+import {getUser} from "../api/info";
+import Backdrop from '@mui/material/Backdrop';
+import DesktopEditEmail from "../../components/DesktopEditEmail/index"
+import DesktopEditCellNumber from "../../components/DesktopEditCellNumber/index";
+import imagen from "../../static/img/layer-2-10@1x.png";
+
 
 function DesktopMyProfile(props) {
   const {
@@ -45,7 +54,30 @@ function DesktopMyProfile(props) {
     dashboard1Props,
     usersProps,
   } = props;
-
+  const [dataUser, setdataUser]=useState(null);
+  useEffect(() => {
+    (async () => {
+      const response = await getUser("jd@nulifespan.com");
+      console.log(response);
+      setdataUser(response[0]);
+    })();
+  }, []);
+  // ============================================================
+  const [openEmail, setOpenEmail] = useState(false);
+  const handleClose = () => {
+    setOpenEmail(false);
+  };
+  const handleToggle = () => {
+    setOpenEmail(!openEmail);
+  };
+  // ==============================================================
+  const [openPhone, setOpenPhone] = useState(false);
+  const handleClosePhone = () => {
+    setOpenPhone(false);
+  };
+  const handleTogglePhone = () => {
+    setOpenPhone(!openPhone);
+  };
   return (
     <div className="container-center-horizontal">
       <div className="desktop-my-profile screen">
@@ -76,7 +108,7 @@ function DesktopMyProfile(props) {
                 </Link>
                 <Link to="/desktop-my-connections">
                   <div className="x02-9">
-                    <div className="proposal-7" style={{ backgroundImage: `url(${proposal})` }}></div>
+                    <div className="proposal-7" style={{ backgroundImage: `url(${imagen})` }}></div>
                     <div className="projects-5 manrope-medium-quick-silver-18px">{projects}</div>
                   </div>
                 </Link>
@@ -93,13 +125,14 @@ function DesktopMyProfile(props) {
                   </div>
                 </Link>
               </div>
-              <div className="overlap-group3-9" style={{ backgroundImage: `url(${overlapGroup3})` }}></div>
-              <div className="overlap-group1-48" style={{ backgroundImage: `url(${overlapGroup1})` }}>
-                <img className="your-image-here-5" src={yourImageHere} />
-                <img className="sleepangle-4" src={sleepangle} />
+              {/* <div className="overlap-group3-9" style={{ backgroundImage: `url(${overlapGroup3})` }}></div> */}
+              <MarketingAd1 />
+              <div className="overlap-group1-48" style={{ backgroundImage: `url(${fondo})` }}>
+                <img className="your-image-here-5" src={require("../../static/img/your-image-here-1@1x.png")} />
+                <img className="sleepangle-4" src={require("../../static/img/sleepangle-1@1x.png")} />
                 <a href="https://nulifespan.com/store-2/" target="_blank">
                   <div className="group-36">
-                    <div className="overlap-group-88" style={{ backgroundImage: `url(${overlapGroup})` }}>
+                    <div className="overlap-group-88" style={{ backgroundImage: `url(${fondo2})` }}>
                       <div className="shop-now-9 manrope-bold-white-13px">{shopNow}</div>
                     </div>
                   </div>
@@ -111,13 +144,13 @@ function DesktopMyProfile(props) {
           </div>
           <div className="overlap-group8-4">
             <div className="dashboard-22 gotham-bold-eerie-black-34px">{dashboard2}</div>
-            <div className="welcome-3 opensans-normal-quick-silver-18px">{welcome}</div>
+            <div className="welcome-3 opensans-normal-quick-silver-18px">{`Hello ${dataUser==null?"User":(dataUser["firstName"])}, welcome back!`}</div>
           </div>
           <div className="overlap-group4-9">
             <a href="javascript:ShowOverlay('desktop-upload-avatar', 'animate-appear');">
               <div className="profile-picture"></div>
             </a>
-            <img className="add-friend-2-2" src={addFriend2} />
+            <img className="add-friend-2-2" src={require("../../static/img/add-friend-2-2@1x.png")} />
           </div>
           <a href="javascript:ShowOverlay('desktop-upload-avatar', 'animate-appear');">
             <div className="super-admin-7 manrope-normal-royal-blue-14px">{superAdmin1}</div>
@@ -125,10 +158,14 @@ function DesktopMyProfile(props) {
           <div className="group-23">
             <div className="overlap-group5-6">
               <div className="big-title">
-                <div className="dashboard-23 gotham-bold-eerie-black-34px">{dashboard3}</div>
-                <div className="level-status-custo manrope-normal-quick-silver-18px">{levelStatusCusto}</div>
-                <div className="phone manrope-normal-quick-silver-18px">{phone}</div>
-                <div className="email-3">{email}</div>
+                <div className="dashboard-23 gotham-bold-eerie-black-34px">{dataUser==null?"Default":(dataUser["firstName"])}</div>
+                <div className="level-status-custo manrope-normal-quick-silver-18px">Level Status {dataUser==null?"Default":(dataUser["customerType"])}
+      <br />
+      Sponsor Name: {dataUser==null?"Default":(dataUser["fullName"])}
+      <br />
+      Sponsor ID: {dataUser==null?"Default":(dataUser["id"])}</div>
+                <div className="phone manrope-normal-quick-silver-18px">Phone: {dataUser==null?"Default":(dataUser["phoneNumbers"][0]["number"])}</div>
+                <div className="email-3">Email: {dataUser==null?"Default":(dataUser["emailAddress"])}</div>
                 <div className="overlap-group-89">
                   <div className="dashboard-24 manrope-bold-eerie-black-20px">{dashboard4}</div>
                   <div className="webaliasnulifespancom manrope-normal-quick-silver-18px">{webaliasNulifespanCom}</div>
@@ -138,12 +175,28 @@ function DesktopMyProfile(props) {
               <img className="email-2-1" src={email21} />
             </div>
             <div className="super-admin-container">
-              <Link to="/desktop-edit-cell-number">
+              {/* <Link to="/desktop-edit-cell-number">
                 <div className="super-admin-8 manrope-normal-royal-blue-14px">{superAdmin2}</div>
-              </Link>
-              <Link to="/desktop-edit-email">
+              </Link> */}
+              <div className="super-admin-8 manrope-normal-royal-blue-14px" onClick={handleTogglePhone}>{superAdmin2}</div>
+              <Backdrop
+                sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
+                open={openPhone}
+                onClick={handleClosePhone}
+              >
+                <DesktopEditCellNumber/>
+              </Backdrop>
+              {/* <Link to="/desktop-edit-email">
                 <div className="super-admin-9 manrope-normal-royal-blue-14px">{superAdmin3}</div>
-              </Link>
+              </Link> */}
+              <div className="super-admin-9 manrope-normal-royal-blue-14px" onClick={handleToggle}>{superAdmin3}</div>
+              <Backdrop
+                sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
+                open={openEmail}
+                onClick={handleClose}
+              >
+                <DesktopEditEmail/>
+              </Backdrop>
             </div>
           </div>
           <img className="line-1-1" src={line1} />

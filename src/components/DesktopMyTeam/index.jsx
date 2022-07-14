@@ -9,6 +9,10 @@ import Dashboard1 from "../Dashboard1";
 import Users from "../Users";
 import X04 from "../X04";
 import "./DesktopMyTeam.css";
+import imagen from "../../static/img/layer-2-10@1x.png";
+import imagen2 from "../../static/img/left-menu-ad1-1@1x.png";
+import imagen3 from "../../static/img/path-38-1@1x.png";
+import imagen4 from "../../static/img/bg-3@1x.png"
 
 function DesktopMyTeam(props) {
   const {
@@ -62,7 +66,7 @@ function DesktopMyTeam(props) {
                 </Link>
                 <Link to="/desktop-my-connections">
                   <div className="x02-8">
-                    <div className="proposal-5" style={{ backgroundImage: `url(${proposal})` }}></div>
+                    <div className="proposal-5" style={{ backgroundImage: `url(${imagen})` }}></div>
                     <div className="projects-4 manrope-medium-quick-silver-18px">{projects}</div>
                   </div>
                 </Link>
@@ -74,13 +78,13 @@ function DesktopMyTeam(props) {
                 </Link>
                 <X04 />
               </div>
-              <div className="overlap-group3-5" style={{ backgroundImage: `url(${overlapGroup3})` }}></div>
-              <div className="overlap-group1-39" style={{ backgroundImage: `url(${overlapGroup1})` }}>
+              <div className="overlap-group3-5" style={{ backgroundImage: `url(${imagen2})` }}></div>
+              <div className="overlap-group1-39" style={{ backgroundImage: `url(${imagen3})` }}>
                 <img className="your-image-here-4" src={require("../../static/img/your-image-here-1@1x.png")} />
                 <img className="sleepangle-3" src={require("../../static/img/sleepangle-1@1x.png")} />
                 <a href="https://nulifespan.com/store-2/" target="_blank">
                   <div className="group-35">
-                    <div className="overlap-group-83" style={{ backgroundImage: `url(${overlapGroup})` }}>
+                    <div className="overlap-group-83" style={{ backgroundImage: `url(${imagen4})` }}>
                       <div className="shop-now-8 manrope-bold-white-13px">{shopNow}</div>
                     </div>
                   </div>

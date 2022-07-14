@@ -7,7 +7,7 @@ function Profile() {
   useEffect(() => {
     (async () => {
       const response = await getUser("jd@nulifespan.com");
-      // console.log(response[0]);
+      console.log(response);
       setdataUser(response[0]);
     })();
   }, []);

@@ -1,4 +1,6 @@
 import React,{useEffect, useState} from "react";
+import Backdrop from '@mui/material/Backdrop';
+import CircularProgress from '@mui/material/CircularProgress';
 import Date from "../Date";
 import DueDate from "../DueDate";
 import {getDate, changeDate} from "../Date/fecha"
@@ -12,17 +14,28 @@ function Rightbar(props) {
   // nulifespan-customer-dashboard/
   // nulifespan-bonuses/<company>/<nodeid>/</nodeid>
   // https://deploywk.herokuapp.com/nulifespan-customer-data/<company>/<email>/
-
+  const [open, setOpen] = useState(false);
+  const handleClose = () => {
+    setOpen(false);
+  };
+  const handleToggle = () => {
+    setOpen(!open);
+  };
 
 
   const [fecha,setfecha]=useState(null);
   const [lastSix, setLastSix]=useState(null);
   const [compras, setCompras]=useState(0);
+  const [ganancias, setganancias]=useState(100);
   useEffect(() => {
     (async () => {
+      setOpen(true);
       const response = await getCustomer("jd@nulifespan.com");
+      console.log(response);
       setLastSix(response.lasttransactions);
       setfecha(getDate());
+      setganancias(response.lastsix.value);
+      setOpen(false);
     })();
   }, []);
 
@@ -47,7 +60,16 @@ function Rightbar(props) {
         <div className="text-earning-this-month-2">
           <div className="your-earnings-this-month manrope-normal-quick-silver-18px">Your earnings this month</div>
           <div className="overlap-group-32">
-            <h1 className="price-1 manrope-bold-black-60px">$ {compras}</h1>
+            {
+              lastSix===null && (<Backdrop
+                sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
+                open={open}
+                onClick={handleClose}
+              >
+                <CircularProgress color="inherit" />
+              </Backdrop>)
+            }
+            <h1 className="price-1 manrope-bold-black-60px">$ {ganancias}</h1>
             <p className="address manrope-normal-quick-silver-15px">{fecha}</p>
             {/* <p className="address manrope-normal-quick-silver-15px">05 Jun 2021 at 11:00 PM</p> */}
           </div>

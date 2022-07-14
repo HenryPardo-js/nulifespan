@@ -3,7 +3,7 @@ import Dashboard1 from "../Dashboard1";
 import "./X01.css";
 
 function X01(props) {
-  const { dashboard1Props } = props;
+  const { dashboard1Props } = props; 
 
   return (
     <div className="x01">

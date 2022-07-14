@@ -12,6 +12,8 @@ import TabbedReports from "../TabbedReports";
 import Rightbar from "../Rightbar";
 import "./DesktopDashboard.css";
 import {getUser} from "../api/info"
+import fondo from "../../static/img/path-38-1@1x.png"
+import fondo2 from "../../static/img/bg-3@1x.png"
 
 function DesktopDashboard(props) {
   const {
@@ -79,7 +81,6 @@ function DesktopDashboard(props) {
     })();
   }, []);
 
-
   return (
     <div className="container-center-horizontal">
       <div className="desktop-dashboard screen">
@@ -104,8 +105,12 @@ function DesktopDashboard(props) {
             <div className="menus-10">
               <X01 dashboard1Props={x01Props.dashboard1Props} />
               <Link to="/desktop-my-connections">
-                <div className="x02-11">
-                  <div className="proposal-11" style={{ backgroundImage: `url(${proposal})` }}></div>
+                {/* <div className="x02-11">
+                  <div className="proposal-11" style={{ backgroundImage: `url(${proposal})` }}></div> 
+                  <div className="projects-7 manrope-medium-quick-silver-18px">{projects}</div>
+                </div> */}
+                <div className="x03-5">
+                  <img className="proposal-11" src={require("../../static/img/layer-2-10@1x.png")} />
                   <div className="projects-7 manrope-medium-quick-silver-18px">{projects}</div>
                 </div>
               </Link>
@@ -130,13 +135,13 @@ function DesktopDashboard(props) {
             </div>
             <MarketingAd1 />
             <div className="marketing-ad-2-1">
-              <div className="overlap-group2-28" style={{ backgroundImage: `url(../../static/img/path-38-1@1x.png)` }}>
+              <div className="overlap-group2-28" style={{ backgroundImage:`url(${fondo})` }}>
                 <img className="your-image-here-7" src={require("../../static/img/your-image-here-1@1x.png")} />
                 <img className="sleepangle-6" src={require("../../static/img/sleepangle-1@1x.png")} />
                 <a href="https://nulifespan.com/store-2/" target="_blank">
                   <div className="group-25-1">
-                    <div className="overlap-group-103" style={{ backgroundImage: `url(${overlapGroup})` }}>
-                      <div className="shop-now-11 manrope-bold-white-13px">{shopNow}</div>
+                    <div className="overlap-group-103" style={{ backgroundImage: `url(${fondo2})` }}>
+                      <div className="shop-now-11 manrope-bold-white-13px">{shopNow}</div> 
                     </div>
                   </div>
                 </a>

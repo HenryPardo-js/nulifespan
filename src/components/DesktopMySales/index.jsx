@@ -8,6 +8,10 @@ import Header3 from "../Header3";
 import Dashboard1 from "../Dashboard1";
 import X03 from "../X03";
 import "./DesktopMySales.css";
+import imagen from "../../static/img/layer-2-10@1x.png";
+import imagen2 from "../../static/img/left-menu-ad1-1@1x.png"
+import imagen3 from "../../static/img/path-38-1@1x.png"
+import imagen4 from "../../static/img/bg-3@1x.png"
 
 function DesktopMySales(props) {
   const {
@@ -62,7 +66,7 @@ function DesktopMySales(props) {
                 </Link>
                 <Link to="/desktop-my-connections">
                   <div className="x02-7">
-                    <div className="proposal-3" style={{ backgroundImage: `url(${proposal})` }}></div>
+                    <div className="proposal-3" style={{ backgroundImage: `url(${imagen})` }}></div>
                     <div className="projects-3 manrope-medium-quick-silver-18px">{projects}</div>
                   </div>
                 </Link>
@@ -74,13 +78,13 @@ function DesktopMySales(props) {
                   </div>
                 </Link>
               </div>
-              <div className="overlap-group3-4" style={{ backgroundImage: `url(${overlapGroup3})` }}></div>
-              <div className="overlap-group1-36" style={{ backgroundImage: `url(${overlapGroup1})` }}>
-                <img className="your-image-here-3" src={yourImageHere} />
-                <img className="sleepangle-2" src={sleepangle} />
+              <div className="overlap-group3-4" style={{ backgroundImage: `url(${imagen2})` }}></div>
+              <div className="overlap-group1-36" style={{ backgroundImage: `url(${imagen3})` }}>
+                <img className="your-image-here-3" src={require("../../static/img/your-image-here-1@1x.png")} />
+                <img className="sleepangle-2" src={require("../../static/img/sleepangle-1@1x.png")} />
                 <a href="https://nulifespan.com/store-2/" target="_blank">
                   <div className="group-34">
-                    <div className="overlap-group-79" style={{ backgroundImage: `url(${overlapGroup})` }}>
+                    <div className="overlap-group-79" style={{ backgroundImage: `url(${imagen4})` }}>
                       <div className="shop-now-7 manrope-bold-white-13px">{shopNow}</div>
                     </div>
                   </div>
