@@ -6,6 +6,9 @@ import DueDate from "../DueDate";
 import {getDate, changeDate} from "../Date/fecha"
 import {getCustomer} from "../api/info"
 import "./Rightbar.css";
+import Skeleton from '@mui/material/Skeleton';
+import Grid from '@mui/material/Grid';
+
 
 function Rightbar(props) {
   const { dueDate1Props, dueDate2Props, dueDate3Props } = props;
@@ -60,7 +63,7 @@ function Rightbar(props) {
         <div className="text-earning-this-month-2">
           <div className="your-earnings-this-month manrope-normal-quick-silver-18px">Your earnings this month</div>
           <div className="overlap-group-32">
-            {
+            {/* {
               lastSix===null && (<Backdrop
                 sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
                 open={open}
@@ -68,8 +71,13 @@ function Rightbar(props) {
               >
                 <CircularProgress color="inherit" />
               </Backdrop>)
+            } */}
+            {
+
+              lastSix===null ? (<Skeleton variant="rectangular" width={250} height={75} />):(<h1 className="price-1 manrope-bold-black-60px">$ {ganancias}</h1>)
+
             }
-            <h1 className="price-1 manrope-bold-black-60px">$ {ganancias}</h1>
+            {/* <h1 className="price-1 manrope-bold-black-60px">$ {ganancias}</h1> */}
             <p className="address manrope-normal-quick-silver-15px">{fecha}</p>
             {/* <p className="address manrope-normal-quick-silver-15px">05 Jun 2021 at 11:00 PM</p> */}
           </div>
@@ -129,7 +137,7 @@ function Rightbar(props) {
         </div>
         <div className="items">
           {
-            lastSix&&(Array.isArray(lastSix)? lastSix.map(element=>(
+            lastSix ? lastSix.map(element=>(
               <div className="overlap-group6" style={{marginBottom:10}}>
                 <div className="line"></div>
                 <div className="x01-4">
@@ -147,8 +155,54 @@ function Rightbar(props) {
                 </div>
                 <div className="x1000-1100 manrope-normal-turmeric-12px">Personal Purchase ${element.value}</div>
               </div>
-            )):null
+            )):(
+              <>
+                <Grid container spacing={1}>
+                  <Grid item xs={2} >
+                    <Skeleton animation="wave" variant="circular" width={45} height={45} />
+                  </Grid>
+                  <Grid item xs={8} style={{float:"right"}}>
+                    <Skeleton animation="wave" width={100} />
+                    <Skeleton animation="wave" width={75} />
+                    <Skeleton animation="wave" width={25} />
+                  </Grid>
+                </Grid>
+                <Grid container spacing={1} style={{marginTop:5}}>
+                  <Grid item xs={2} >
+                    <Skeleton animation="wave" variant="circular" width={45} height={45} />
+                  </Grid>
+                  <Grid item xs={8} style={{float:"right"}}>
+                  <Skeleton animation="wave" width={100} />
+                    <Skeleton animation="wave" width={75} />
+                    <Skeleton animation="wave" width={25} />
+                  </Grid>
+                </Grid>
+                <Grid container spacing={1} style={{marginTop:5}}>
+                  <Grid item xs={2} >
+                    <Skeleton animation="wave" variant="circular" width={45} height={45} />
+                  </Grid>
+                  <Grid item xs={8} style={{float:"right"}}>
+                  <Skeleton animation="wave" width={100} />
+                    <Skeleton animation="wave" width={75} />
+                    <Skeleton animation="wave" width={25} />
+                  </Grid>
+                </Grid>
+                <Grid container spacing={1} style={{marginTop:5}} >
+                  <Grid item xs={2} >
+                    <Skeleton animation="wave" variant="circular" width={45} height={45} />
+                  </Grid>
+                  <Grid item xs={8} style={{float:"right"}}>
+                  <Skeleton animation="wave" width={100} />
+                    <Skeleton animation="wave" width={75} />
+                    <Skeleton animation="wave" width={25} />
+                  </Grid>
+                </Grid>
+                <div className="line"></div>
+
+              </>
+              
             )
+            
           }
           
           {/* <div className="overlap-group7">
