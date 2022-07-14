@@ -8,6 +8,7 @@ import {getCustomer} from "../api/info"
 import "./Rightbar.css";
 import Skeleton from '@mui/material/Skeleton';
 import Grid from '@mui/material/Grid';
+import Speedometer from "../speed/Speedometer"
 
 
 function Rightbar(props) {
@@ -88,9 +89,19 @@ function Rightbar(props) {
           <div className="progress gotham-bold-eerie-black-24px">Rank Progress</div>
           <div className="meeting-with-client-2 manrope-bold-eerie-black-14px">Next Rank: President Club</div>
         </div>
+
+        {/* Speed meter */}
+
         <div className="overlap-group8">
-          <img className="circle" src={require("../../static/img/circle@1x.png")} />
-          <div className="icon-2 border-8px-white">
+          <div className="divProgressBar" style={{backgroundColor:"#C1C3BC", borderRadius:10,padding:1}}>
+            <div style={{backgroundColor:"#fff",borderRadius:10}}>
+              <div style={{backgroundColor:"#CACD4B",width:"25%",height:65, borderRadius:10, display:"flex",justifyContent:"center",alignItems:"center"}}>
+                <label className="manrope-bold-black-49px" style={{fontSize:20, color:"black"}}>25%</label>
+              </div>
+            </div>
+          </div>
+          {/* <img className="circle" src={require("../../static/img/circle@1x.png")} /> */}
+          {/* <div className="icon-2 border-8px-white">
             <div className="pointer">
               <div className="group-3">
                 <div className="vector-container-12">
@@ -99,7 +110,7 @@ function Rightbar(props) {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="number-13">
           <div className="x01-3">
