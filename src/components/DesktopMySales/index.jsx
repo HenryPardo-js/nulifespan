@@ -58,7 +58,7 @@ function DesktopMySales(props) {
             <div className="sidebar-4">
               <Header3 />
               <div className="menus-2">
-                <Link to="/desktop-home-dashboard">
+                <Link to="/">
                   <div className="x01-14">
                     <Dashboard1 dashboard1={dashboard1Props.dashboard1} />
                     <div className="dashboard-13 manrope-medium-white-18px">{dashboard1}</div>
@@ -70,7 +70,7 @@ function DesktopMySales(props) {
                     <div className="projects-3 manrope-medium-quick-silver-18px">{projects}</div>
                   </div>
                 </Link>
-                <X03 usersProps={x03Props.usersProps} />
+                <X03 usersProps={x03Props.usersProps} /> 
                 <Link to="/desktop-my-team">
                   <div className="x04-1">
                     <img className="vector-146" src={require("../../static/img/vector-107@1x.png")} />

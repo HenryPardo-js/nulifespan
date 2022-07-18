@@ -46,55 +46,6 @@ import TabletDashboard from "./components/TabletDashboard";
 import MobileDashboard from "./components/MobileDashboard";
 
 function App() {
-  // const desktopMyProfileData = {
-  //   iconUser: "/static/img/icon-10@1x.png",
-  //   dashboard1: "Dashboard",
-  //   proposal: "/static/img/layer-2-10@1x.png",
-  //   projects: "My Connections",
-  //   contacts: "My Sales",
-  //   myTasks: "My Team",
-  //   overlapGroup3: "/static/img/left-menu-ad1-1@1x.png",
-  //   overlapGroup1: "/static/img/path-38-1@1x.png",
-  //   yourImageHere: "/static/img/your-image-here-1@1x.png",
-  //   sleepangle: "/static/img/sleepangle-1@1x.png",
-  //   overlapGroup: "/static/img/bg-3@1x.png",
-  //   shopNow: "Shop Now",
-  //   onSale: "On Sale!",
-  //   ongoing: "See what’s new …",
-  //   dashboard2: "Your Profile",
-  //   welcome: "Hello ${desktopMyProfile}, welcome back!",
-  //   addFriend2: "/static/img/add-friend-2-2@1x.png",
-  //   superAdmin1: "Change Avatar",
-  //   dashboard3: "Franklin Jr.",
-  //   levelStatusCusto: (
-  //     <React.Fragment>
-  //       Level Status $CustomerType
-  //       <br />
-  //       Sponsor Name: $Enroller_First $Enroller_Last
-  //       <br />
-  //       Sponsor ID: $Sponsor_ID
-  //     </React.Fragment>
-  //   ),
-  //   phone: "${phone}",
-  //   email: "${email}",
-  //   dashboard4: "Your Share Link:",
-  //   webaliasNulifespanCom: "${webalias}.nulifespan.com",
-  //   iconCall: "/static/img/phone-call-1-1@1x.png",
-  //   email21: "/static/img/email--2--1-1@1x.png",
-  //   superAdmin2: "Edit",
-  //   superAdmin3: "Edit",
-  //   line1: "/static/img/line-1@1x.png",
-  //   searchboxProps: searchbox5Data,
-  //   group2Props: group24Data,
-  //   dashboard1Props: dashboard18Data,
-  //   usersProps: users5Data,
-  // };
-  //   useEffect(() => {
-  //     (async () => {
-  //       const response = await getUser("jd@nulifespan.com");
-  //       desktopMyProfileData.welcome="Hola Julian"
-  //     })();
-  //   }, []);
   return (
     <Router>
       <Switch>
@@ -130,13 +81,25 @@ function App() {
           <MobileHamburgerMenu mENUProps={mobileHamburgerMenuData.mENUProps} />
         </Route>
         <Route path="/desktop-my-connections">
+          <DesktopMyConnections {...desktopMySalesData} />
+        </Route>
+        {/* <Route path="/desktop-my-connections">
           <DesktopMyConnections
             background="/static/img/background-4@1x.png"
             nav="/static/img/nav-1x-png@1x.png"
             sidebar="/static/img/sidebar-1x-png@1x.png"
             dashboard="My Connections"
+            projects="My Connections"
+            x01Props="/static/img/vector-12@1x.png"
+            usersProps=""
+            contacts="My Sales"
+            myTasks1="My Team"
+            myTasks2="My TimiFit"
+            onSale="On Sale!"
+            ongoing="See what’s new …"
+            shopNow="Shop Now"
           />
-        </Route>
+        </Route> */}
         <Route path="/tablet-my-connections">
           <TabletMyConnections
             background="/static/img/background-10@1x.png"
@@ -1549,7 +1512,10 @@ const rightbar3Data = {
   dueDate3Props: dueDate6Data,
 };
 
-const desktopDashboardData = {
+// aqui estan los datos
+// =============================================
+
+const desktopDashboardData = { 
   icon1: "/static/img/icon-10@1x.png",
   proposal: "/static/img/layer-2-10@1x.png",
   projects: "My Connections",

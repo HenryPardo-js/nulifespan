@@ -58,7 +58,7 @@ function DesktopMyTeam(props) {
             <div className="sidebar-6">
               <Header3 />
               <div className="menus-4">
-                <Link to="/desktop-home-dashboard">
+                <Link to="/">
                   <div className="x01-19">
                     <Dashboard1 dashboard1={dashboard1Props.dashboard1} />
                     <div className="dashboard-17 manrope-medium-white-18px">{dashboard1}</div>

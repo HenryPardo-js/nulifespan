@@ -8,7 +8,6 @@ import {getCustomer} from "../api/info"
 import "./Rightbar.css";
 import Skeleton from '@mui/material/Skeleton';
 import Grid from '@mui/material/Grid';
-import Speedometer from "../speed/Speedometer"
 
 
 function Rightbar(props) {
@@ -94,9 +93,9 @@ function Rightbar(props) {
 
         <div className="overlap-group8">
           <div className="divProgressBar" style={{backgroundColor:"#C1C3BC", borderRadius:10,padding:1}}>
-            <div style={{backgroundColor:"#fff",borderRadius:10}}>
-              <div style={{backgroundColor:"#CACD4B",width:"25%",height:65, borderRadius:10, display:"flex",justifyContent:"center",alignItems:"center"}}>
-                <label className="manrope-bold-black-49px" style={{fontSize:20, color:"black"}}>25%</label>
+            <div style={{backgroundColor:"#F9F9F9",borderRadius:10}}>
+              <div style={{backgroundColor:"#CACD4B",width:"65%",height:65,  display:"flex",justifyContent:"center",alignItems:"center"}}>
+                <label className="manrope-bold-black-49px" style={{fontSize:20, color:"black"}}>65%</label>
               </div>
             </div>
           </div>

@@ -23,6 +23,16 @@
   top: 101px;
   width: 1920px;
 }
+.h_iframe {
+  position:relative;
+}
+.h_iframe iframe {
+  position:absolute;
+  top:0;
+  left:0;
+  width:1500px;
+  height:1200px;
+}
 
 .nav-3 {
   height: 120px;
@@ -43,12 +53,12 @@
 }
 
 .dashboard-11 {
-  height: 66px;
-  left: 482px;
+  height: 800px;
+  left: 395px;
   letter-spacing: 0;
   line-height: 38px;
   position: absolute;
-  top: 249px;
-  width: 330px;
+  top: 148px;
+  width: 50%;
 }
 

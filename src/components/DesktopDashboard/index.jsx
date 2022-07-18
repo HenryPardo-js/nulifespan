@@ -99,8 +99,9 @@ function DesktopDashboard(props) {
                 <Profile />
               </div>
             </a>
-          </div>
-          <div className="sidebar-12">
+          </div> 
+
+          <div className="sidebar-12"> 
             <Header />
             <div className="menus-10">
               <X01 dashboard1Props={x01Props.dashboard1Props} />
@@ -150,6 +151,7 @@ function DesktopDashboard(props) {
               </div>
             </div>
           </div>
+          
           <div className="content-2">
             <div className="over-container-1">
               <div className="overlap-group10-1">
